@@ -7,17 +7,17 @@ import java.util.List;
 public class SubSet {
     public static void main(String[] args) {
 
-       /* int arr[] = {1, 2, 3};
+        /*int arr[] = {1, 2, 3};
         ArrayList<ArrayList<Integer>> ans = subset(arr);
         for (List<Integer> list:  ans){
-            System.out.println(list);
+            System.out.print(list + " ");
         }*/
 
-        int arr[] = {1, 2, 2};
+        /*int arr[] = {1, 2, 2};
         ArrayList<ArrayList<Integer>> ans = subsetDuplicate(arr);
         for (List<Integer> list:  ans){
             System.out.println(list);
-        }
+        }*/
     }
 
     static ArrayList<ArrayList<Integer>> subset(int arr[]){
@@ -26,7 +26,7 @@ public class SubSet {
 
         for(int num: arr){
             int n = outer.size();
-            for (int i=0; i<n; i++){
+            for(int i=0; i<n; i++){
                 ArrayList<Integer> internal = new ArrayList<>(outer.get(i));
                 internal.add(num);
                 outer.add(internal);
