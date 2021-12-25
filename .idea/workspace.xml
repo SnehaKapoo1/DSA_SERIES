@@ -2,14 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstraction/abstract_example/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstraction/interface_example/construct_allowed_or_not.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstraction/interface_example/multiple_inheritance/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_hiding/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/multilevel/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/abstraction/abstract_example/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/abstraction/abstract_example/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/construct_allowed_or_not.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/multiple_inheritance/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/multiple_inheritance/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/multiple_inheritance/C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/multiple_inheritance/D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/multiple_inheritance/E.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/classAndObject/ClassAndObject$Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/classAndObject/ClassAndObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/classAndObject/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/data_hiding/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/basic/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/basic/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/basic/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/basic/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/basic/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/hierarchical/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/hierarchical/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/hierarchical/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/hierarchical/Hierarchical_Inheritance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/multilevel/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/multilevel/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/multilevel/C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/singleInheritance/Box.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/singleInheritance/BoxWeight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/inheritance/singleInheritance/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/keywords/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/keywords/First.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/keywords/S2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/keywords/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/keywords/ThiisKeyword3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/keywords/ThisKeyword$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/keywords/ThisKeyword$Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/keywords/ThisKeyword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/keywords/ThisKeyword2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/keywords/ThisKeyword3_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/polymorphism/compileTime/Numbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/polymorphism/runTime/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/polymorphism/runTime/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/polymorphism/runTime/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/polymorphism/runTime/Shapes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/polymorphism/runTime/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/arrays/Replace_all_0_to_5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/easy/DigitsSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/searching/AllocateMinPages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/searching/AllocateMinPagesEffSol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/searching/SearchInASortedRotatedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/searching/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/searching/SquareRoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/searching/binarySearch/Ceiling_Of_A_Number.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/sorting/Count_triplets_with_sum_smaller_than_X.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/sorting/IntersectionOfTwoSortedArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/sorting/Kth_Smallest_Element.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/sorting/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/sorting/SubArrayInversionMergeSortApproach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/sorting/SubArrayInversionNaiveSol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/sorting/SubArrayInversionsEfficientSol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/questions/sorting/UnionOfTwoSortedArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/ArrayRecur/ArraySortedOrNot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/ArrayRecur/LinearSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/ArrayRecur/ReturnListQuestion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/ArrayRecur/RotatedBinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/CountZeros.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/Factorial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/FibonacciSeries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/NToOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/NumOfStepsToMakeZero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/OneToN.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/Palindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/ProductOfDigits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/ReverseTheDigit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/SumOfDigits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SimpleRecur/SumOfNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SubSequence/NumberOfDiceRollsWithTargetSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SubSequence/SubSeq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SubSequence/SubSeqReturnArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SubSequence/SubSeqWithAsciiValuesInList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SubSequence/SubSequenceWithAsciiValues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/backtracking/maze/Counting_Paths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/backtracking/maze/Printing_Paths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/easy_questions/SumTriangleFromArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/permutation/CountNumberOfPermutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/permutation/PermuReturnList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/permutation/Permutation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/stringQuestions/LetterCombiOfPhnNum_LeetCode_ModifiedVersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/stringQuestions/LetterCombination_Of_PhoneNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/stringQuestions/SkipCharacter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/stringQuestions/SkipString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/stringQuestions/Skip_A_String.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/recursion/subset/SubSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/sorting/BubbleSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/sorting/InsertionSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/sorting/MergeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/sorting/MergeSort_InPlace.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Demo/sorting/SelectionSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questions/easy/DigitsSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/multilevel/Multi_Level.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interface_example/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/interface_example/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +134,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/inheritance/interface" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/inheritance/interface" />
   </component>
+  <component name="RunManager">
+    <configuration name="DigitsSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.easy.DigitsSum" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DigitsSum" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640351804930</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="..!!">
+      <created>1640425161042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640425161042</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
