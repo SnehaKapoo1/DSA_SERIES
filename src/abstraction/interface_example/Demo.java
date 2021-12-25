@@ -1,4 +1,4 @@
-package interface_example;
+package abstraction.interface_example;
 
 public interface Demo {
     int a=10;
