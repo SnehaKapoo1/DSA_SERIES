@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/infytq/pin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pin">
+  <component name="RunManager" selected="Application.DoNotSplit">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stringdemo.Demo" />
       <module name="Demo" />
@@ -58,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="infosys_questions.Q1" />
+    <configuration name="DoNotSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="infytq.DoNotSplit" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="infosys_questions.*" />
+          <option name="PATTERN" value="infytq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Replace_all_0_to_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.Replace_all_0_to_5" />
+    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="infosys_questions.Q1" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.arrays.*" />
+          <option name="PATTERN" value="infosys_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoNotSplit" />
         <item itemvalue="Application.pin" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.demo" />
         <item itemvalue="Application.Q1" />
-        <item itemvalue="Application.Replace_all_0_to_5" />
       </list>
     </recent_temporary>
   </component>
@@ -199,11 +198,19 @@
       <option name="project" value="LOCAL" />
       <updated>1642834003702</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Infytq practice questions">
+      <created>1642861287614</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642861287614</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="..!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="..!!" />
+    <MESSAGE value="Infytq practice questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Infytq practice questions" />
   </component>
 </project>
