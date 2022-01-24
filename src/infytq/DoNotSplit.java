@@ -1,40 +1,49 @@
 package infytq;
 
-import java.util.Arrays;
+import java.util.*;
 
-public class DoNotSplit {
-    static void compareFirst(int arr[]){
-        int temp =0;
-        for(int i=0; i< arr.length; i++){
-            int num = arr[i];
-            int d = (int)(Math.log10(num));
-            int first = (int)(num/ (int) (Math.pow(10,d)));
-            if(temp > first){
-                System.out.print(num);
-            }
-            else if(temp == first){
-                String s = String.valueOf(num);
-                check(s, temp);
-            }
-            else if(temp < first){
-                temp = first;
-            }
+import java.util.*;
+
+class DoNotSplit {
+    static void printLargest(int []arr)
+    {
+        int n = arr.length;
+        Vector<String> list = new Vector<>();
+        for (int ele: arr){
+            list.add(String.valueOf(ele));
         }
+
+        Collections.sort(list, new Comparator<String>() {
+            @Override
+            public int compare(String A, String B) {
+                String AB = A + B;
+                String BA = B + A;
+                return AB.compareTo(BA) > 0 ? -1 : 1;
+            }
+        });
+
+        Iterator it = list.iterator();
+
+        while (it.hasNext())
+            System.out.print(it.next());
     }
 
-    private static void check(String s, int temp) {
-        for(int i=1; i<s.length(); i++){
-            int c = Integer.parseInt(String.valueOf(s.charAt(i)));
-            if(temp > c){
-                break;
-            }else{
-                continue;
-            }
-        }
-    }
-
-    public static void main(String[] args) {
+    // Driver code
+    public static void main(String[] args)
+    {
         int arr[] = {10, 7, 76, 415};
-          compareFirst(arr);
+        printLargest(arr);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
