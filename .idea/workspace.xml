@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/infytq/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infytq/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/infytq/Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643020239446</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Infytq practice questions">
+      <created>1643124348772</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1643124348772</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
