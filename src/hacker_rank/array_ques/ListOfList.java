@@ -32,10 +32,9 @@ public class ListOfList {
         List<List<Integer>> list = new ArrayList<>();
 
         List<Integer> l1 = new ArrayList<>();
-        l1.add(1);
-        l1.add(2);
-        l1.add(100);
-        l1.add(200);
+        l1.add(1);//a
+        l1.add(2);//b
+        l1.add(100);//k
 
         list.add(l1);
 
@@ -56,5 +55,10 @@ public class ListOfList {
 
         System.out.println(ListOfList.arrayManipulation(5 ,list));
 
+
     }
 }
+
+
+
+
