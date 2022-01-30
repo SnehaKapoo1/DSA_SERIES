@@ -1,7 +1,9 @@
 package infytq;
 
+import java.util.Scanner;
+
 public class Palindrome {
-    static boolean check(int num) {
+    static int check(int num) {
         int rem, sum = 0, temp;
         temp = num;
         //boolean b =false;
@@ -12,30 +14,35 @@ public class Palindrome {
         }
 
         if (temp == sum) {
-            return true;
+            return temp;
         }
-        return false;
+        return -1;
     }
 
-    public static void check2(int num) {
-        int rem, sum = 0, temp;
-        temp = num;
-        //boolean b =false;
+    public static int reverse(int num) {
+        int rem =0;
+        int rev = 0;
         while (num > 0) {
             rem = num % 10;
-            sum = (sum * 10) + rem;
+            rev = (rev * 10) + rem;
             num /= 10;
         }
-
-        if (temp == sum) {
-            System.out.println(temp + " " + "is a palindrome");
-        } else {
-            check2(temp + sum);
-        }
+        return rev;
     }
 
     public static void main(String[] args) {
-        int num = 121;
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number which you want to check");
+        int num = sc.nextInt();
+        int ans = check(num);
+        if(ans != -1){
+            System.out.println("Given number is already a palindrome" + "\n" + ans + " " + "is a palindrome");
+        }
+        else{
+           do{
+               num = num + reverse(num);
+           }while (num!=reverse(num));
+            System.out.println(num + " " + "is a palindrome");
+        }
     }
 }
