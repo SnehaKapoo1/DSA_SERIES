@@ -27,7 +27,7 @@ public class WindowQues {
         //Scanner sc = new Scanner(System.in);
        // int n = sc.nextInt();
         //int num[] = new int[7];
-        int num [] = { 10, 20, 30};
+        int num [] = { 30, 20, 10};
         /*for(int i=0; i<7; i++){
             num[i] = sc.nextInt();
         }*/

@@ -40,7 +40,10 @@ public class Palindrome {
         }
         else{
            do{
-               num = num + reverse(num);
+               int temp = num;
+               int rev =  reverse(num);
+               num = num + rev;
+               System.out.println(temp + " + " + rev + " =" +" "+  num);
            }while (num!=reverse(num));
             System.out.println(num + " " + "is a palindrome");
         }
