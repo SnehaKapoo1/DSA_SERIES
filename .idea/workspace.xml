@@ -59,11 +59,11 @@
   </component>
   <component name="RunManager" selected="Application.Question2">
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="infytq.Palindrome" />
+      <option name="MAIN_CLASS_NAME" value="infosys_questions.Palindrome" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="infytq.*" />
+          <option name="PATTERN" value="infosys_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,11 +85,11 @@
       </method>
     </configuration>
     <configuration name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="infytq.Question2" />
+      <option name="MAIN_CLASS_NAME" value="infosys_questions.Question2" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="infytq.*" />
+          <option name="PATTERN" value="infosys_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +98,11 @@
       </method>
     </configuration>
     <configuration name="StringNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="infytq.StringNumber" />
+      <option name="MAIN_CLASS_NAME" value="infosys_questions.StringNumber" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="infytq.*" />
+          <option name="PATTERN" value="infosys_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="WindowQues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="infytq.WindowQues" />
+      <option name="MAIN_CLASS_NAME" value="infosys_questions.WindowQues" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="infytq.*" />
+          <option name="PATTERN" value="infosys_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

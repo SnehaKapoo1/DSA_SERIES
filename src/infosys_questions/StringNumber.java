@@ -1,4 +1,4 @@
-package infytq;
+package infosys_questions;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

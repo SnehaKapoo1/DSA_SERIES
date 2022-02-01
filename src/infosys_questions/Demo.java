@@ -1,4 +1,4 @@
-package infytq;
+package infosys_questions;
 
 class A {
     public int var1;

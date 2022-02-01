@@ -1,4 +1,4 @@
-package infytq;
+package infosys_questions;
 
 public class pin {
     static String pin(int pinArray[], int n){
