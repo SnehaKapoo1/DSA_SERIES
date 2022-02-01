@@ -4,44 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/out/production/Demo/infosys_questions/Q2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Demo/infytq/StringReverse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Demo/infytq/WaveArray1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Demo/infytq/WindowQues.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infosys_questions/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infytq/WaveArray1.java" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Palindrome">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/abstract_example/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/abstract_example/demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/interface_example/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/interface_example/construct_allowed_or_not.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/interface_example/multiple_inheritance/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classAndObject/ClassAndObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classAndObject/notes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_hiding/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infytq/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/infytq/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infytq/WindowQues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/infytq/WindowQues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/basic/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/basic/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/hierarchical/Hierarchical_Inheritance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/multilevel/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/singleInheritance/Box.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/singleInheritance/BoxWeight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/singleInheritance/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keywords/ThiisKeyword3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keywords/ThisKeyword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keywords/ThisKeyword2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keywords/ThisKeyword3_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keywords/ThisKeyword4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/compileTime/Numbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/compileTime/overloading/Case1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/compileTime/overloading/Case2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/runTime/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/runTime/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/runTime/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/runTime/Shapes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/runTime/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/abstraction/abstract_example/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/abstraction/abstract_example/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/abstraction/abstract_example/demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/construct_allowed_or_not.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/multiple_inheritance/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/multiple_inheritance/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/multiple_inheritance/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/multiple_inheritance/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/abstraction/interface_example/multiple_inheritance/E.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/classAndObject/ClassAndObject$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/classAndObject/ClassAndObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/classAndObject/notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/data_hiding/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/infytq/Palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/basic/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/basic/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/basic/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/basic/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/basic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/hierarchical/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/hierarchical/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/hierarchical/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/hierarchical/Hierarchical_Inheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/multilevel/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/multilevel/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/multilevel/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/singleInheritance/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/singleInheritance/BoxWeight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/inheritance/singleInheritance/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/keywords/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/keywords/First.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/keywords/S2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/keywords/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/keywords/ThiisKeyword3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/keywords/ThisKeyword$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/keywords/ThisKeyword$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/keywords/ThisKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/keywords/ThisKeyword2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/keywords/ThisKeyword3_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/polymorphism/compileTime/Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/polymorphism/compileTime/overloading/Case1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/polymorphism/compileTime/overloading/Case2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/polymorphism/runTime/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/polymorphism/runTime/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/polymorphism/runTime/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/polymorphism/runTime/Shapes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/polymorphism/runTime/Square.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +73,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="22jVo9Fyd1qdh7z8NsbjvcDnk7b" />
   <component name="ProjectLevelVcsManager">
@@ -90,7 +105,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Palindrome">
+  <component name="RunManager" selected="Application.StringNumber">
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="infytq.Palindrome" />
       <module name="Demo" />
@@ -117,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="infytq.StringReverse" />
+    <configuration name="StringNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="infytq.StringNumber" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaveArray1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="infytq.WaveArray1" />
+    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="infytq.StringReverse" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringNumber" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Q2" />
         <item itemvalue="Application.WindowQues" />
         <item itemvalue="Application.StringReverse" />
-        <item itemvalue="Application.WaveArray1" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643635701710</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Palindrome">
+      <created>1643709317476</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1643709317476</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +376,8 @@
     <MESSAGE value="reverse string" />
     <MESSAGE value="peak of the min of every contiguous sublist" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="Palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
