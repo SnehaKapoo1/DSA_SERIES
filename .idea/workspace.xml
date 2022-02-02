@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="StringNumber">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="infytq practice question">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -310,7 +310,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643720154908</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="produce the largest even number from the available digit after removing the duplicates digits.">
+      <created>1643725075773</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1643725075773</updated>
+    </task>
+    <task id="LOCAL-00026" summary="infytq practice question">
+      <created>1643725220142</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1643725220142</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +351,9 @@
     <MESSAGE value="updated" />
     <MESSAGE value="Palindrome" />
     <MESSAGE value="StringNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringNumber" />
+    <MESSAGE value="produce the largest even number from the available digit after removing the duplicates digits." />
+    <MESSAGE value="infytq practice question" />
+    <option name="LAST_COMMIT_MESSAGE" value="infytq practice question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -359,7 +375,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/infytq/Question2.java</url>
+          <url>file://$PROJECT_DIR$/src/infosys_questions/Question2.java</url>
           <line>19</line>
           <properties class="infytq.Question2" method="produceLargestEven">
             <option name="EMULATED" value="true" />
@@ -368,7 +384,7 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/infytq/Question2.java</url>
+          <url>file://$PROJECT_DIR$/src/infosys_questions/Question2.java</url>
           <line>12</line>
           <properties class="infytq.Question2" method="main">
             <option name="EMULATED" value="true" />
@@ -377,7 +393,7 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/infytq/Question2.java</url>
+          <url>file://$PROJECT_DIR$/src/infosys_questions/Question2.java</url>
           <line>7</line>
           <properties class="infytq.Question2" method="isDigit">
             <option name="EMULATED" value="true" />
