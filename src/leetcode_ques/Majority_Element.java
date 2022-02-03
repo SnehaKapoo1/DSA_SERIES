@@ -10,7 +10,7 @@ public class Majority_Element {
 //             int c =1;
 
 //             for(int j =i+1; j<nums.length; j++){
-//                 if(nums[i] == nums[j]){
+//                if(nums[i] == nums[j]){
 //                     c++;
 //                 }
 //             }
