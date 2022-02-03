@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="infytq practice question">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/DoNotSplit$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/DoNotSplit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/Palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/StringReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/WaveArray1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/WindowQues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/infytq/pin.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +68,20 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question2">
+  <component name="RunManager" selected="Application.Majority_Element">
+    <configuration name="Majority_Element" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_ques.Majority_Element" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode_ques.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="infosys_questions.Palindrome" />
       <module name="Demo" />
@@ -110,26 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowQues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="infosys_questions.WindowQues" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="infosys_questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Majority_Element" />
         <item itemvalue="Application.Question2" />
         <item itemvalue="Application.StringNumber" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Q2" />
-        <item itemvalue="Application.WindowQues" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643725220142</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="infytq practice question">
+      <created>1643822496677</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1643822496677</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
