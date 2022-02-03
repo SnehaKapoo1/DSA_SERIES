@@ -1,4 +1,4 @@
-package leetcode_ques;
+package leetcode_ques.searching_sorting;
 
 import java.util.Scanner;
 
