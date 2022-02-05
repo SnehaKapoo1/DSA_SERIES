@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Buy and Sell 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="How many numbers smaller than current number" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +55,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HowManyNumsSmallerThanCurr">
+  <component name="RunManager" selected="Application.NumberOfGoodPairs">
     <configuration name="BuyAndSell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode_ques.searching_sorting.BuyAndSell" />
       <module name="Demo" />
@@ -84,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_ques.searching_sorting.SearchInMatrix" />
+    <configuration name="NumberOfGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_ques.hashing.NumberOfGoodPairs" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode_ques.searching_sorting.*" />
+          <option name="PATTERN" value="leetcode_ques.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchKthSmallestEle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.matrix.SearchKthSmallestEle" />
+    <configuration name="SearchInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_ques.searching_sorting.SearchInMatrix" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.matrix.*" />
+          <option name="PATTERN" value="leetcode_ques.searching_sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfGoodPairs" />
         <item itemvalue="Application.HowManyNumsSmallerThanCurr" />
         <item itemvalue="Application.BuyAndSell" />
         <item itemvalue="Application.SearchInMatrix" />
         <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.SearchKthSmallestEle" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644058935761</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="How many numbers smaller than current number">
+      <created>1644092577712</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1644092577712</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,7 +412,8 @@
     <MESSAGE value="TrappingRainWater" />
     <MESSAGE value="Search In m * n Matrix" />
     <MESSAGE value="Buy and Sell 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Buy and Sell 1" />
+    <MESSAGE value="How many numbers smaller than current number" />
+    <option name="LAST_COMMIT_MESSAGE" value="How many numbers smaller than current number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
