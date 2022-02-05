@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="How many numbers smaller than current number" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment=" 1512. Number Of Good Pairs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -378,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644092577712</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary=" 1512. Number Of Good Pairs">
+      <created>1644092962874</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1644092962874</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +420,8 @@
     <MESSAGE value="Search In m * n Matrix" />
     <MESSAGE value="Buy and Sell 1" />
     <MESSAGE value="How many numbers smaller than current number" />
-    <option name="LAST_COMMIT_MESSAGE" value="How many numbers smaller than current number" />
+    <MESSAGE value=" 1512. Number Of Good Pairs" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 1512. Number Of Good Pairs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
