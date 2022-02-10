@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Ransome note">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Two String">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hacker_rank/array_ques/hashing/TwoString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hacker_rank/array_ques/hashing/TwoString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoString">
+  <component name="RunManager" selected="Application.Chaining">
     <configuration name="Amrit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="infosys_questions.Amrit" />
       <module name="Demo" />
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.searching.FirstRepeatedChar" />
+    <configuration name="Chaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashingConcept.Chaining" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.searching.*" />
+          <option name="PATTERN" value="hashingConcept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Level1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="infosys_questions.Level1" />
+    <configuration name="FirstRepeatedChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.searching.FirstRepeatedChar" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="infosys_questions.*" />
+          <option name="PATTERN" value="questions.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chaining" />
         <item itemvalue="Application.TwoString" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.FirstRepeatedChar" />
         <item itemvalue="Application.Amrit" />
-        <item itemvalue="Application.Level1" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644430305267</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Two String">
+      <created>1644433340574</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1644433340574</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -447,7 +455,8 @@
     <MESSAGE value="771. Jewels and Stones" />
     <MESSAGE value="6th march" />
     <MESSAGE value="Ransome note" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ransome note" />
+    <MESSAGE value="Two String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -8,7 +8,6 @@ public class TwoString {
         for(Character c : s1.toCharArray()){
             hs.add(c);
         }
-
         for(Character ele : s2.toCharArray()){
             if(hs.contains(ele)){
                 return "YES";
@@ -17,7 +16,10 @@ public class TwoString {
         return "NO";
     }
     public static void main(String[] args) {
-        String s1 = "hello";
+//        String s1 = "hello";
+//        String s2 = "world";
+
+        String s1 = "hi";
         String s2 = "world";
 
         System.out.println(twoStrings(s1, s2));
