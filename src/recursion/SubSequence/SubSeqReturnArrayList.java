@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class SubSeqReturnArrayList {
     public static void main(String[] args) {
-
-        System.out.println(subset("", "abc"));
+        System.out.println(subset("", "mom"));
     }
 
     static ArrayList<String> subset(String p, String up){
