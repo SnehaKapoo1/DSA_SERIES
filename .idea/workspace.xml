@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Prefix sum algorithm">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/RangeSumQuery.java" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Leetcode Range sum Query">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/Prefix_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/prefixsum/Prefix_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/RangeSumQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/prefixsum/RangeSumQuery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithms/twopointer" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -51,20 +52,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaCode\src\algorithms\twopointer" />
       <recent name="D:\JavaCode" />
       <recent name="D:\JavaCode\src\questions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaCode\src\algorithms\twopointer\equidirectional" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RangeSumQuery">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Prefix_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.Prefix_Sum" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.prefixsum.Prefix_Sum" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="algorithms.prefixsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +78,11 @@
       </method>
     </configuration>
     <configuration name="RangeSumQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.RangeSumQuery" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.prefixsum.RangeSumQuery" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.*" />
+          <option name="PATTERN" value="algorithms.prefixsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSeqReturnArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.SubSequence.SubSeqReturnArrayList" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.twopointer.oppositedirectional.Solution" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.SubSequence.*" />
+          <option name="PATTERN" value="algorithms.twopointer.oppositedirectional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.RangeSumQuery" />
         <item itemvalue="Application.Prefix_Sum" />
         <item itemvalue="Application.ShortestSubsequent" />
         <item itemvalue="Application.SherLock_Anagram" />
-        <item itemvalue="Application.SubSeqReturnArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644572519891</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Leetcode Range sum Query">
+      <created>1644574095575</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1644574095575</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -452,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HackerRank ArrayManipulation" />
     <MESSAGE value="Library Management" />
     <MESSAGE value="gfg" />
     <MESSAGE value="SkipCharacter" />
@@ -477,7 +488,8 @@
     <MESSAGE value="Two String" />
     <MESSAGE value="Collision handling method : Chaining" />
     <MESSAGE value="Prefix sum algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prefix sum algorithm" />
+    <MESSAGE value="Leetcode Range sum Query" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leetcode Range sum Query" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
