@@ -1,4 +1,4 @@
-package algorithms.slidingwindow;
+package algorithms.slidingwindow.fixed;
 
 public class Question1 {
 

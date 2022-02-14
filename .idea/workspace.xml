@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array.">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="sliding window one more way updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/Prefix_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/prefixsum/Prefix_Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/RangeSumQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/prefixsum/RangeSumQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/slidingwindow/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/slidingwindow/Question1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/slidingwindow/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/slidingwindow/fixed/Question1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question1">
+  <component name="RunManager" selected="Application.Question2">
     <configuration name="Prefix_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.prefixsum.Prefix_Sum" />
       <module name="Demo" />
@@ -79,11 +79,24 @@
       </method>
     </configuration>
     <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.slidingwindow.Question1" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.slidingwindow.fixed.Question1" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.slidingwindow.*" />
+          <option name="PATTERN" value="algorithms.slidingwindow.fixed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.slidingwindow.fixed.Question2" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.slidingwindow.fixed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,19 +110,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithms.prefixsum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShortestSubsequent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.SubSequence.ShortestSubsequent" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.SubSequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question2" />
         <item itemvalue="Application.Question1" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.RangeSumQuery" />
         <item itemvalue="Application.Prefix_Sum" />
-        <item itemvalue="Application.ShortestSubsequent" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644670716810</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="sliding window one more way updated">
+      <created>1644820005074</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1644820005074</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -479,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SkipCharacter" />
     <MESSAGE value="palindrome updated" />
     <MESSAGE value="reverse string" />
     <MESSAGE value="peak of the min of every contiguous sublist" />
@@ -504,7 +510,8 @@
     <MESSAGE value="Leetcode Range sum Query" />
     <MESSAGE value="2078. Two Furthest Houses With Different Colors" />
     <MESSAGE value="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array." />
+    <MESSAGE value="sliding window one more way updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="sliding window one more way updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,9 +578,9 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/algorithms/slidingwindow/Question1.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithms/slidingwindow/fixed/Question1.java</url>
           <line>35</line>
-          <properties class="algorithms.slidingwindow.Question1" method="slidingWindowAdityaVermaApproach">
+          <properties class="algorithms.slidingwindow.fixed.Question1" method="slidingWindowAdityaVermaApproach">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
