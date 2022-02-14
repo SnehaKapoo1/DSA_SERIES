@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="2078. Two Furthest Houses With Different Colors">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/Prefix_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/prefixsum/Prefix_Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/RangeSumQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/prefixsum/RangeSumQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/slidingwindow/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/slidingwindow/Question1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -456,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644668552407</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array.">
+      <created>1644670716809</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1644670716810</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,7 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gfg" />
     <MESSAGE value="SkipCharacter" />
     <MESSAGE value="palindrome updated" />
     <MESSAGE value="reverse string" />
@@ -496,7 +503,8 @@
     <MESSAGE value="Prefix sum algorithm" />
     <MESSAGE value="Leetcode Range sum Query" />
     <MESSAGE value="2078. Two Furthest Houses With Different Colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="2078. Two Furthest Houses With Different Colors" />
+    <MESSAGE value="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -561,6 +569,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/slidingwindow/Question1.java</url>
+          <line>35</line>
+          <properties class="algorithms.slidingwindow.Question1" method="slidingWindowAdityaVermaApproach">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
