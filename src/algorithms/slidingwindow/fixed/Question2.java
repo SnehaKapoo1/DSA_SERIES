@@ -1,10 +1,12 @@
 package algorithms.slidingwindow.fixed;
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 
 public class Question2 {
 
-    static void bruteForce(int nums[], int k){
+    static void bruteForce(int[] nums, int k){
 
         boolean flag;
 
@@ -24,36 +26,33 @@ public class Question2 {
 
     static void slidingWindow(int[] arr, int k){
         int n = arr.length;
+        int i=0;
+        int j=0;
+        List<Integer> list = new ArrayList<>();
+        while(j < n){
+            if(arr[j] < 0)
+                list.add(arr[j]);
 
-        LinkedList<Integer> Di = new LinkedList<>();
+            if(j-i+1 < k)
+                j++;
 
-        int i;
-        for (i = 0; i < k; i++)
-
-            if (arr[i] < 0)
-                Di.add(i);
-
-        for ( ; i < n; i++)
-        {
-            if (!Di.isEmpty())
-                System.out.print(arr[Di.peek()] + " ");
-            else
-                System.out.print("0" + " ");
-
-            while ((!Di.isEmpty()) && Di.peek() < (i - k + 1))
-                Di.remove();
-
-            if (arr[i] < 0)
-                Di.add(i);
+            else if(j-i+1 == k){
+                if(list.isEmpty()) {
+                    System.out.print(0 + " ");
+                    i++;
+                }
+                else{
+                    System.out.print(list.get(0) + " ");
+                    if (arr[i] == list.get(0))
+                        list.remove(list.get(0));
+                    i++;
+                    j++;
+                }
+            }
         }
-
-        if (!Di.isEmpty())
-            System.out.print(arr[Di.peek()] + " ");
-        else
-            System.out.print("0" + " ");
     }
     public static void main(String[] args) {
-        int arr[] = {12, -1, -7, 8, -15, 30, 16, 28};
+        int[] arr = {12, -1, -7, 8, -15, 30, 16, 28};
         int k =3;
 
        bruteForce(arr, k);

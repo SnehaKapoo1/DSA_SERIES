@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.prefixsum;
 
 
 import java.util.Arrays;
