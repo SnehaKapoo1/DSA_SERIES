@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="sliding window one more way updated">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="find 1st negative integer in every sliding window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Prefix_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/prefixsum/Prefix_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/RangeSumQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/prefixsum/RangeSumQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/slidingwindow/fixed/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/slidingwindow/fixed/Question2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/inheritance/interface" />
   </component>
   <component name="RecentsManager">
@@ -64,13 +61,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question2">
-    <configuration name="Prefix_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.prefixsum.Prefix_Sum" />
+  <component name="RunManager" selected="Application.Codechef">
+    <configuration name="Codechef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.greedy.Codechef" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.prefixsum.*" />
+          <option name="PATTERN" value="algorithms.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeSumQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.prefixsum.RangeSumQuery" />
+    <configuration name="Question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.slidingwindow.fixed.Question3" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.prefixsum.*" />
+          <option name="PATTERN" value="algorithms.slidingwindow.fixed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Codechef" />
+        <item itemvalue="Application.Question3" />
         <item itemvalue="Application.Question2" />
         <item itemvalue="Application.Question1" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.RangeSumQuery" />
-        <item itemvalue="Application.Prefix_Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644827560103</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="find 1st negative integer in every sliding window">
+      <created>1644906242898</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1644906242898</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="palindrome updated" />
     <MESSAGE value="reverse string" />
     <MESSAGE value="peak of the min of every contiguous sublist" />
     <MESSAGE value="updated" />
@@ -518,7 +521,8 @@
     <MESSAGE value="2078. Two Furthest Houses With Different Colors" />
     <MESSAGE value="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array." />
     <MESSAGE value="sliding window one more way updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="sliding window one more way updated" />
+    <MESSAGE value="find 1st negative integer in every sliding window" />
+    <option name="LAST_COMMIT_MESSAGE" value="find 1st negative integer in every sliding window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
