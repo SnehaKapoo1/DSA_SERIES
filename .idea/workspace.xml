@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Greedy question">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Greedy question gfg problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Gfg1">
+  <component name="RunManager" selected="Application.MaxSumSubarray">
     <configuration name="Codechef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.greedy.Codechef" />
       <module name="Demo" />
@@ -88,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.slidingwindow.fixed.Question1" />
+    <configuration name="MaxSumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.kadane.MaxSumSubarray" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.slidingwindow.fixed.*" />
+          <option name="PATTERN" value="algorithms.kadane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSumSubarray" />
         <item itemvalue="Application.Gfg1" />
         <item itemvalue="Application.Codechef" />
         <item itemvalue="Application.Question3" />
         <item itemvalue="Application.Question2" />
-        <item itemvalue="Application.Question1" />
       </list>
     </recent_temporary>
   </component>
@@ -145,13 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00001" summary="..!!">
-      <created>1640351804930</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1640351804930</updated>
     </task>
     <task id="LOCAL-00002" summary="..!!">
       <created>1640425161042</created>
@@ -489,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645280979460</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Greedy question gfg problem">
+      <created>1645283517564</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1645283517565</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="peak of the min of every contiguous sublist" />
     <MESSAGE value="updated" />
     <MESSAGE value="Palindrome" />
     <MESSAGE value="StringNumber" />
@@ -529,7 +528,8 @@
     <MESSAGE value="sliding window one more way updated" />
     <MESSAGE value="find 1st negative integer in every sliding window" />
     <MESSAGE value="Greedy question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Greedy question" />
+    <MESSAGE value="Greedy question gfg problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Greedy question gfg problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -603,6 +603,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/greedy/Gfg1.java</url>
+          <line>6</line>
+          <properties class="algorithms.greedy.Gfg1" method="minCoins">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
