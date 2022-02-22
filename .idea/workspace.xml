@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Greedy question gfg problem">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Kadane's algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/kadane/MaxSumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/kadane/MaxSumSubarray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +58,27 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JavaCode\src\algorithms\twopointer\equidirectional" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="algorithms.greedy" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxSumSubarray">
+  <component name="RunManager" selected="Application.ActivitySelectionProblem">
+    <configuration name="ActivitySelectionProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.greedy.ActivitySelectionProblem" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Codechef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.greedy.Codechef" />
       <module name="Demo" />
@@ -101,19 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.slidingwindow.fixed.Question2" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.slidingwindow.fixed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.slidingwindow.fixed.Question3" />
       <module name="Demo" />
@@ -129,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActivitySelectionProblem" />
         <item itemvalue="Application.MaxSumSubarray" />
         <item itemvalue="Application.Gfg1" />
         <item itemvalue="Application.Codechef" />
         <item itemvalue="Application.Question3" />
-        <item itemvalue="Application.Question2" />
       </list>
     </recent_temporary>
   </component>
@@ -145,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00002" summary="..!!">
-      <created>1640425161042</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1640425161042</updated>
     </task>
     <task id="LOCAL-00003" summary="..!!">
       <created>1640431028465</created>
@@ -489,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645283517565</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Kadane's algorithm">
+      <created>1645357657285</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1645357657286</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated" />
     <MESSAGE value="Palindrome" />
     <MESSAGE value="StringNumber" />
     <MESSAGE value="produce the largest even number from the available digit after removing the duplicates digits." />
@@ -529,7 +532,8 @@
     <MESSAGE value="find 1st negative integer in every sliding window" />
     <MESSAGE value="Greedy question" />
     <MESSAGE value="Greedy question gfg problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Greedy question gfg problem" />
+    <MESSAGE value="Kadane's algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kadane's algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,15 +598,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/algorithms/slidingwindow/fixed/Question1.java</url>
-          <line>35</line>
-          <properties class="algorithms.slidingwindow.fixed.Question1" method="slidingWindowAdityaVermaApproach">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithms/greedy/Gfg1.java</url>
