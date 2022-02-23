@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Kadane's algorithm">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Greedy algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/kadane/MaxSumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/kadane/MaxSumSubarray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="22jVo9Fyd1qdh7z8NsbjvcDnk7b" />
   <component name="ProjectLevelVcsManager">
@@ -65,7 +64,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ActivitySelectionProblem">
+  <component name="RunManager" selected="Application.FractionalKnapsack">
     <configuration name="ActivitySelectionProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.greedy.ActivitySelectionProblem" />
       <module name="Demo" />
@@ -79,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Codechef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.greedy.Codechef" />
+    <configuration name="FractionalKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.greedy.FractionalKnapsack" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.slidingwindow.fixed.Question3" />
+    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.Q2" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.slidingwindow.fixed.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FractionalKnapsack" />
+        <item itemvalue="Application.Q2" />
         <item itemvalue="Application.ActivitySelectionProblem" />
         <item itemvalue="Application.MaxSumSubarray" />
         <item itemvalue="Application.Gfg1" />
-        <item itemvalue="Application.Codechef" />
-        <item itemvalue="Application.Question3" />
       </list>
     </recent_temporary>
   </component>
@@ -149,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00003" summary="..!!">
-      <created>1640431028465</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1640431028465</updated>
     </task>
     <task id="LOCAL-00004" summary="..!!">
       <created>1640509384330</created>
@@ -493,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645357657286</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Greedy algorithm">
+      <created>1645528541271</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1645528541272</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Palindrome" />
     <MESSAGE value="StringNumber" />
     <MESSAGE value="produce the largest even number from the available digit after removing the duplicates digits." />
     <MESSAGE value="infytq practice question" />
@@ -533,7 +531,8 @@
     <MESSAGE value="Greedy question" />
     <MESSAGE value="Greedy question gfg problem" />
     <MESSAGE value="Kadane's algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kadane's algorithm" />
+    <MESSAGE value="Greedy algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Greedy algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
