@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="!!">
-      <change afterPath="$PROJECT_DIR$/src/questions/Problem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem">
+  <component name="RunManager" selected="Application.OwnMinHeapImple">
     <configuration name="ActivitySelectionProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.greedy.ActivitySelectionProblem" />
       <module name="Demo" />
@@ -92,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.kadane.MaxSumSubarray" />
+    <configuration name="OwnMinHeapImple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.OwnMinHeapImple" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.kadane.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OwnMinHeapImple" />
         <item itemvalue="Application.Problem" />
         <item itemvalue="Application.FractionalKnapsack" />
         <item itemvalue="Application.Q2" />
         <item itemvalue="Application.ActivitySelectionProblem" />
-        <item itemvalue="Application.MaxSumSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -149,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00004" summary="..!!">
-      <created>1640509384330</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1640509384330</updated>
     </task>
     <task id="LOCAL-00005" summary="..!!">
       <created>1640526884629</created>
@@ -493,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645528541272</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="!!">
+      <created>1645810461780</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1645810461780</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
