@@ -8,31 +8,39 @@ class BruteForce {
         for(int i=0; i<rows; i++){
             for(int j=0; j<cols; j++){
                 if(matrix[i][j] == 0){
+
+                    //traversal for upward column element's index
                     int ind = i-1;
-                    while(ind >= 0){
-                        if (matrix[ind][j] !=0){
+                    while(ind >=0){
+                        if(matrix[i][ind] !=0 && matrix[i][ind] !=-1){
                             matrix[ind][j] = -1;
                         }
                         ind--;
                     }
-                   ind = i+1;
+
+                    //traversal for downward column element's index
+                    ind = i+1;
                     while(ind < rows){
-                        if (matrix[ind][j] !=0){
+                        if(matrix[i][ind] !=0 && matrix[i][ind] !=-1){
                             matrix[ind][j] = -1;
                         }
                         ind++;
                     }
+
+                    //traversal for upward rows element's index
                     ind = j-1;
-                    while(ind >= 0){
-                        if(matrix[i][ind] != 0){
-                            matrix[i][ind] = -1;
+                    while(ind >=0){
+                        if (matrix[i][ind] !=0 && matrix[i][ind] !=-1){
+                            matrix[i][ind] =-1;
                         }
                         ind--;
                     }
+
+                    //traversal for downward rows element's index
                     ind = j+1;
                     while (ind < cols){
-                        if(matrix[i][ind] != 0){
-                            matrix[i][ind] = -1;
+                        if (matrix[i][ind] !=0 && matrix[i][ind] !=-1){
+                            matrix[i][ind] =-1;
                         }
                         ind++;
                     }
