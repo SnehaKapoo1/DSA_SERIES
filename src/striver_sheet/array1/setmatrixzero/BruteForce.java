@@ -1,6 +1,6 @@
-package striver_sheet.array1;
+package striver_sheet.array1.setmatrixzero;
 
-class SetMatrix {
+class BruteForce {
     static void setZeroes(int[][] matrix){
         int rows = matrix.length;
         int cols = matrix[0].length;

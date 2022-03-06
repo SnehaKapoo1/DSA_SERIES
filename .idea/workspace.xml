@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Heap">
-      <change afterPath="$PROJECT_DIR$/src/striver_sheet/array1/SetMatrix.java" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Striver's sheet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/striver_sheet/array1/SetMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/striver_sheet/array1/setmatrixzero/BruteForce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +65,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetMatrix">
-    <configuration name="FractionalKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.greedy.FractionalKnapsack" />
+  <component name="RunManager" selected="Application.Optimize">
+    <configuration name="Optimize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.setmatrixzero.Optimize" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.greedy.*" />
+          <option name="PATTERN" value="striver_sheet.array1.setmatrixzero.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,7 +110,7 @@
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array1.*" />
+          <option name="PATTERN" value="striver_sheet.array1.Q1.SetMatrix" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="SetMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.SetMatrix" />
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.Q1.SetMatrix" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array1.*" />
+          <option name="PATTERN" value="striver_sheet.array1.Q1.SetMatrix" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Optimize" />
         <item itemvalue="Application.SetMatrix" />
         <item itemvalue="Application.SetMarix" />
         <item itemvalue="Application.OwnMinHeapImple" />
         <item itemvalue="Application.Problem" />
-        <item itemvalue="Application.FractionalKnapsack" />
       </list>
     </recent_temporary>
   </component>
@@ -149,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00007" summary="..!!">
-      <created>1640797147071</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1640797147071</updated>
     </task>
     <task id="LOCAL-00008" summary="..!!">
       <created>1641095926631</created>
@@ -493,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646243249311</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Striver's sheet">
+      <created>1646544558196</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1646544558197</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,7 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="infytq practice question" />
     <MESSAGE value="leetcode practice question" />
     <MESSAGE value="Search Kth Smallest Element" />
     <MESSAGE value="TrappingRainWater" />
@@ -533,7 +532,8 @@
     <MESSAGE value="Greedy algorithm" />
     <MESSAGE value="!!" />
     <MESSAGE value="Heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heap" />
+    <MESSAGE value="Striver's sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Striver's sheet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
