@@ -4,7 +4,7 @@ public class Optimize_Better {
         static void setZeroes(int[][] matrix) {
             int col0 = 1, rows = matrix.length, cols = matrix[0].length;
 
-            for (int i = 0; i < rows; i++) {
+            for(int i = 0; i < rows; i++) {
                 if (matrix[i][0] == 0) col0 = 0;
                 for (int j = 1; j < cols; j++)
                     if (matrix[i][j] == 0)
@@ -19,7 +19,7 @@ public class Optimize_Better {
             }
         }
         public static void main(String args[]) {
-            int arr[][] = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
+            int arr[][] = {{0, 1, 2, 0}, {3, 4, 5, 2}, {1, 3, 1, 5}};
             setZeroes(arr);
             System.out.println("The Final Matrix is ");
             for (int i = 0; i < arr.length; i++) {

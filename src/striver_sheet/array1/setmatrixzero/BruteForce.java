@@ -1,5 +1,6 @@
 package striver_sheet.array1.setmatrixzero;
 
+//only for non-negative numbers
 class BruteForce {
     static void setZeroes(int[][] matrix){
         int rows = matrix.length;
@@ -9,10 +10,12 @@ class BruteForce {
             for(int j=0; j<cols; j++){
                 if(matrix[i][j] == 0){
 
+                    int re = Integer.MIN_VALUE;
+
                     //traversal for upward column element's index
                     int ind = i-1;
                     while(ind >=0){
-                        if(matrix[i][ind] !=0 && matrix[i][ind] !=-1){
+                        if(matrix[i][ind] !=0){
                             matrix[ind][j] = -1;
                         }
                         ind--;
@@ -21,7 +24,7 @@ class BruteForce {
                     //traversal for downward column element's index
                     ind = i+1;
                     while(ind < rows){
-                        if(matrix[i][ind] !=0 && matrix[i][ind] !=-1){
+                        if(matrix[i][ind] !=0){
                             matrix[ind][j] = -1;
                         }
                         ind++;
@@ -30,7 +33,7 @@ class BruteForce {
                     //traversal for upward rows element's index
                     ind = j-1;
                     while(ind >=0){
-                        if (matrix[i][ind] !=0 && matrix[i][ind] !=-1){
+                        if (matrix[i][ind] !=0){
                             matrix[i][ind] =-1;
                         }
                         ind--;
@@ -39,7 +42,7 @@ class BruteForce {
                     //traversal for downward rows element's index
                     ind = j+1;
                     while (ind < cols){
-                        if (matrix[i][ind] !=0 && matrix[i][ind] !=-1){
+                        if (matrix[i][ind] !=0){
                             matrix[i][ind] =-1;
                         }
                         ind++;
@@ -57,8 +60,9 @@ class BruteForce {
         }
     }
 
+
     public static void main(String args[]) {
-        int arr[][] = {{0, 1, 2, 0}, {3, 4, 5, 2}, {1, 3, 1, 5}};
+        int arr[][] = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
         setZeroes(arr);
         System.out.println("The Final Matrix is ");
         for (int i = 0; i < arr.length; i++) {
