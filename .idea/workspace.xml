@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Array part |">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Pascal triangle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +64,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintGivenRow">
-    <configuration name="Optimize_Better" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.setmatrixzero.Optimize_Better" />
+  <component name="RunManager" selected="Application.NextPermutation">
+    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.permutationproblem.NextPermutation" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array1.setmatrixzero.*" />
+          <option name="PATTERN" value="striver_sheet.array1.permutationproblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextPermutation" />
         <item itemvalue="Application.PrintGivenRow" />
         <item itemvalue="Application.geeks" />
         <item itemvalue="Application.TwodArray" />
         <item itemvalue="Application.PrintPascalTriangle" />
-        <item itemvalue="Application.Optimize_Better" />
       </list>
     </recent_temporary>
   </component>
@@ -148,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Infytq practice questions">
-      <created>1642861287614</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1642861287614</updated>
     </task>
     <task id="LOCAL-00012" summary="Infytq practice questions">
       <created>1642940066633</created>
@@ -492,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646641054171</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Pascal triangle">
+      <created>1646817709252</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1646817709260</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Search Kth Smallest Element" />
     <MESSAGE value="TrappingRainWater" />
     <MESSAGE value="Search In m * n Matrix" />
     <MESSAGE value="Buy and Sell 1" />
@@ -532,7 +531,8 @@
     <MESSAGE value="Heap" />
     <MESSAGE value="Striver's sheet" />
     <MESSAGE value="Array part |" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array part |" />
+    <MESSAGE value="Pascal triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pascal triangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
