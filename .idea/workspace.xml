@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Next Permutation">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Sort 0's 1's 2's">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/striver_sheet/array1/sort012/PointerApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/striver_sheet/array1/sort012/PointerApproach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +64,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PointerApproach">
-    <configuration name="Naive (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.sort012.Naive" />
+  <component name="RunManager" selected="Application.Efficient">
+    <configuration name="Efficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.stock_and_buy.Efficient" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array1.sort012.*" />
+          <option name="PATTERN" value="striver_sheet.array1.stock_and_buy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Naive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.maximumsumsubarray.Naive" />
+    <configuration name="Naive (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.stock_and_buy.Naive" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array1.maximumsumsubarray.*" />
+          <option name="PATTERN" value="striver_sheet.array1.stock_and_buy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.permutationproblem.NextPermutation" />
+    <configuration name="Naive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.stock_and_buy.Naive2" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array1.permutationproblem.*" />
+          <option name="PATTERN" value="striver_sheet.array1.stock_and_buy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Efficient" />
+        <item itemvalue="Application.Naive2" />
+        <item itemvalue="Application.Naive (2)" />
         <item itemvalue="Application.PointerApproach" />
         <item itemvalue="Application.ThreeVariableApproach" />
-        <item itemvalue="Application.Naive (1)" />
-        <item itemvalue="Application.Naive" />
-        <item itemvalue="Application.NextPermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -149,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Infytq practice questions">
-      <created>1643020239445</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1643020239446</updated>
     </task>
     <task id="LOCAL-00014" summary="Infytq practice questions">
       <created>1643124348772</created>
@@ -493,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646822491239</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Sort 0's 1's 2's">
+      <created>1646892229391</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1646892229391</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Search In m * n Matrix" />
     <MESSAGE value="Buy and Sell 1" />
     <MESSAGE value="How many numbers smaller than current number" />
     <MESSAGE value=" 1512. Number Of Good Pairs" />
@@ -533,7 +531,8 @@
     <MESSAGE value="Array part |" />
     <MESSAGE value="Pascal triangle" />
     <MESSAGE value="Next Permutation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Next Permutation" />
+    <MESSAGE value="Sort 0's 1's 2's" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort 0's 1's 2's" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
