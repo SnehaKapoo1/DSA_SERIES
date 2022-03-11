@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Sort 0's 1's 2's">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Stock and Buy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,20 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Efficient">
+  <component name="RunManager" selected="Application.Efficient (1)">
+    <configuration name="Efficient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.rotate_matrix.Efficient" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="striver_sheet.array2.rotate_matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Efficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.stock_and_buy.Efficient" />
       <module name="Demo" />
@@ -91,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Naive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.rotate_matrix.Naive" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="striver_sheet.array2.rotate_matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Naive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.stock_and_buy.Naive2" />
       <module name="Demo" />
@@ -104,39 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointerApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.sort012.PointerApproach" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="striver_sheet.array1.sort012.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeVariableApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.sort012.ThreeVariableApproach" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="striver_sheet.array1.sort012.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Efficient (1)" />
+        <item itemvalue="Application.Naive" />
         <item itemvalue="Application.Efficient" />
         <item itemvalue="Application.Naive2" />
         <item itemvalue="Application.Naive (2)" />
-        <item itemvalue="Application.PointerApproach" />
-        <item itemvalue="Application.ThreeVariableApproach" />
       </list>
     </recent_temporary>
   </component>
@@ -148,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Infytq practice questions">
-      <created>1643124348772</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1643124348772</updated>
     </task>
     <task id="LOCAL-00015" summary="Infytq practice questions">
       <created>1643200598402</created>
@@ -492,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646892229391</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Stock and Buy">
+      <created>1646903702957</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1646903702957</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Buy and Sell 1" />
     <MESSAGE value="How many numbers smaller than current number" />
     <MESSAGE value=" 1512. Number Of Good Pairs" />
     <MESSAGE value="771. Jewels and Stones" />
@@ -532,7 +531,8 @@
     <MESSAGE value="Pascal triangle" />
     <MESSAGE value="Next Permutation" />
     <MESSAGE value="Sort 0's 1's 2's" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort 0's 1's 2's" />
+    <MESSAGE value="Stock and Buy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stock and Buy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
