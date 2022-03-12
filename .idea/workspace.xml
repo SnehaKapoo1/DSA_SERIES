@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Merge two sorted arrays">
-      <change afterPath="$PROJECT_DIR$/src/striver_sheet/array2/merge_two_sorted_arrays/Efficient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/questions/HelpMLA2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/recursion/SubSequence/SubSeqReturnArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SubSequence/SubSeqReturnArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/prefixsum/Prefix_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/prefixsum/Prefix_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion/SubSequence/SubSeqReturnArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/SubSequence/SubSeqReturnArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +68,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Efficient (2)">
-    <configuration name="Efficient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.rotate_matrix.Efficient" />
+  <component name="RunManager" selected="Application.HelpMLA2">
+    <configuration name="HelpMLA2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.HelpMLA2" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array2.rotate_matrix.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Efficient (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.merge_two_sorted_arrays.Efficient" />
+    <configuration name="Prefix_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.prefixsum.Prefix_Sum" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array2.merge_two_sorted_arrays.*" />
+          <option name="PATTERN" value="algorithms.prefixsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Efficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.stock_and_buy.Efficient" />
+    <configuration name="RangeSumQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.prefixsum.RangeSumQuery" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array1.stock_and_buy.*" />
+          <option name="PATTERN" value="algorithms.prefixsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Naive (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.merge_two_sorted_arrays.Naive" />
+    <configuration name="SubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.SubSequence.SubSeq" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array2.merge_two_sorted_arrays.*" />
+          <option name="PATTERN" value="recursion.SubSequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Naive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.rotate_matrix.Naive" />
+    <configuration name="SubSeqReturnArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.SubSequence.SubSeqReturnArrayList" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array2.rotate_matrix.*" />
+          <option name="PATTERN" value="recursion.SubSequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Efficient (2)" />
-        <item itemvalue="Application.Naive (1)" />
-        <item itemvalue="Application.Efficient (1)" />
-        <item itemvalue="Application.Naive" />
-        <item itemvalue="Application.Efficient" />
+        <item itemvalue="Application.HelpMLA2" />
+        <item itemvalue="Application.SubSeqReturnArrayList" />
+        <item itemvalue="Application.SubSeq" />
+        <item itemvalue="Application.Prefix_Sum" />
+        <item itemvalue="Application.RangeSumQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -149,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Library Management">
-      <created>1643300479947</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1643300479947</updated>
     </task>
     <task id="LOCAL-00018" summary="gfg">
       <created>1643378408920</created>
@@ -493,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647009484626</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Merge two sorted arrays">
+      <created>1647016335238</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1647016335238</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -580,24 +583,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/recursion/SubSequence/SubSeqReturnArrayList.java</url>
-          <line>5</line>
-          <properties class="recursion.SubSequence.SubSeqReturnArrayList" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/recursion/SubSequence/SubSeqReturnArrayList.java</url>
-          <line>9</line>
-          <properties class="recursion.SubSequence.SubSeqReturnArrayList" method="subset">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithms/greedy/Gfg1.java</url>

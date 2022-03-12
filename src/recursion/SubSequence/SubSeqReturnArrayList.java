@@ -1,6 +1,8 @@
 package recursion.SubSequence;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class SubSeqReturnArrayList {
     public static void main(String[] args) {
@@ -11,6 +13,7 @@ public class SubSeqReturnArrayList {
         if(up.isEmpty()){
             ArrayList<String> list = new ArrayList<>();
             list.add(p);
+            Collections.sort(list);
             return list;
         }
 

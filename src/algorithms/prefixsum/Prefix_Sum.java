@@ -15,12 +15,13 @@ public class Prefix_Sum {
         return res;
     }
     public static void main(String[] args) {
-        int[] nums = {6, 3, -2, 4, -1, 0, -5};
+        int[] nums = {10, 20, 30};
 
         int[] output = prefMeth(nums);
         //find sum for range [0-6]
-        System.out.println(output[6]);
+       // System.out.println(output[6]);
         //find sum for range [2-6]
-        System.out.println(output[6] - output[1]);
+        //System.out.println(output[6] - output[1]);
+        System.out.println( Arrays.toString(output));
     }
 }
