@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Merge two sorted arrays">
-      <change afterPath="$PROJECT_DIR$/src/questions/HelpMLA2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver_sheet/array2/findduplicate/TCN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Demo/recursion/SubSequence/SubSeqReturnArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/recursion/SubSequence/SubSeqReturnArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/prefixsum/Prefix_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/prefixsum/Prefix_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursion/SubSequence/SubSeqReturnArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/SubSequence/SubSeqReturnArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelpMLA2">
+  <component name="RunManager" selected="Application.TCN">
     <configuration name="HelpMLA2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.HelpMLA2" />
       <module name="Demo" />
@@ -82,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prefix_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.prefixsum.Prefix_Sum" />
+    <configuration name="NSq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.findduplicate.NSq" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.prefixsum.*" />
+          <option name="PATTERN" value="striver_sheet.array2.findduplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeSumQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.prefixsum.RangeSumQuery" />
+    <configuration name="NlogNApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.findduplicate.NlogNApproach" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.prefixsum.*" />
+          <option name="PATTERN" value="striver_sheet.array2.findduplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.SubSequence.SubSeq" />
+    <configuration name="TCN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.findduplicate.TCN" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.SubSequence.*" />
+          <option name="PATTERN" value="striver_sheet.array2.findduplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSeqReturnArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.SubSequence.SubSeqReturnArrayList" />
+    <configuration name="TCNSCN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.findduplicate.TCNSCN" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.SubSequence.*" />
+          <option name="PATTERN" value="striver_sheet.array2.findduplicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TCN" />
+        <item itemvalue="Application.NSq" />
+        <item itemvalue="Application.TCNSCN" />
+        <item itemvalue="Application.NlogNApproach" />
         <item itemvalue="Application.HelpMLA2" />
-        <item itemvalue="Application.SubSeqReturnArrayList" />
-        <item itemvalue="Application.SubSeq" />
-        <item itemvalue="Application.Prefix_Sum" />
-        <item itemvalue="Application.RangeSumQuery" />
       </list>
     </recent_temporary>
   </component>
@@ -152,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00018" summary="gfg">
-      <created>1643378408920</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1643378408920</updated>
     </task>
     <task id="LOCAL-00019" summary="SkipCharacter">
       <created>1643472663241</created>
@@ -496,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647016335238</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Merge two sorted arrays">
+      <created>1647078983182</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1647078983182</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,6 +589,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/striver_sheet/array2/findduplicate/TCN.java</url>
+          <line>3</line>
+          <properties class="striver_sheet.array2.findduplicate.TCN" method="findDuplicate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/striver_sheet/array2/findduplicate/TCN.java</url>
+          <line>18</line>
+          <properties class="striver_sheet.array2.findduplicate.TCN" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/striver_sheet/array1/PascalTriangle/PrintPascalTriangle.java</url>
