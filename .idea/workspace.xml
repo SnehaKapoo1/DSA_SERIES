@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Duplicate element">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Repeated and missing number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/striver_sheet/array2/findduplicate/TCN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/striver_sheet/array2/findduplicate/TCN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/striver_sheet/array2/count_inversions/MergeSort_Inversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/striver_sheet/array2/count_inversions/MergeSort_Inversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +66,39 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MostOptimal_Exor">
+  <component name="RunManager" selected="Application.MergeSort_Inversion">
     <configuration name="LinearEquationSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.repeatandmissingvalue.LinearEquationSolution" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="striver_sheet.array2.repeatandmissingvalue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.MergeSort" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort_Inversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.count_inversions.MergeSort_Inversion" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="striver_sheet.array2.count_inversions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,19 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NSq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.findduplicate.NSq" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="striver_sheet.array2.findduplicate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Naive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.repeatandmissingvalue.Naive" />
       <module name="Demo" />
@@ -118,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.findduplicate.TCN" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="striver_sheet.array2.findduplicate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort_Inversion" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MostOptimal_Exor" />
         <item itemvalue="Application.LinearEquationSolution" />
         <item itemvalue="Application.Naive" />
-        <item itemvalue="Application.TCN" />
-        <item itemvalue="Application.NSq" />
       </list>
     </recent_temporary>
   </component>
@@ -149,13 +150,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00020" summary="palindrome updated">
-      <created>1643517275710</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1643517275710</updated>
     </task>
     <task id="LOCAL-00021" summary="reverse string">
       <created>1643631204516</created>
@@ -493,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647248074026</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Repeated and missing number">
+      <created>1647330253504</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1647330253504</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,7 +509,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6th march" />
     <MESSAGE value="Ransome note" />
     <MESSAGE value="Two String" />
     <MESSAGE value="Collision handling method : Chaining" />
@@ -533,7 +533,8 @@
     <MESSAGE value="Rotate Matrix" />
     <MESSAGE value="Merge two sorted arrays" />
     <MESSAGE value="Duplicate element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Duplicate element" />
+    <MESSAGE value="Repeated and missing number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repeated and missing number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,6 +590,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/sorting/MergeSort.java</url>
+          <line>26</line>
+          <properties class="sorting.MergeSort" method="merge">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/striver_sheet/array1/PascalTriangle/PrintPascalTriangle.java</url>
