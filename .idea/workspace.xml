@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Repeated and missing number">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="count inversion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/striver_sheet/array2/count_inversions/MergeSort_Inversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/striver_sheet/array2/count_inversions/MergeSort_Inversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="22jVo9Fyd1qdh7z8NsbjvcDnk7b" />
   <component name="ProjectLevelVcsManager">
@@ -66,7 +64,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort_Inversion">
+  <component name="RunManager" selected="Application.Naive (1)">
     <configuration name="LinearEquationSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.repeatandmissingvalue.LinearEquationSolution" />
       <module name="Demo" />
@@ -119,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Naive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.repeatandmissingvalue.Naive" />
+    <configuration name="Naive (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array3.majorityn3.Naive" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array2.repeatandmissingvalue.*" />
+          <option name="PATTERN" value="striver_sheet.array3.majorityn3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Naive (1)" />
         <item itemvalue="Application.MergeSort_Inversion" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MostOptimal_Exor" />
         <item itemvalue="Application.LinearEquationSolution" />
-        <item itemvalue="Application.Naive" />
       </list>
     </recent_temporary>
   </component>
@@ -150,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00021" summary="reverse string">
-      <created>1643631204516</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1643631204516</updated>
     </task>
     <task id="LOCAL-00022" summary="peak of the min of every contiguous sublist">
       <created>1643635701710</created>
@@ -494,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647330253504</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="count inversion">
+      <created>1647668238731</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1647668238731</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ransome note" />
     <MESSAGE value="Two String" />
     <MESSAGE value="Collision handling method : Chaining" />
     <MESSAGE value="Prefix sum algorithm" />
@@ -534,7 +531,8 @@
     <MESSAGE value="Merge two sorted arrays" />
     <MESSAGE value="Duplicate element" />
     <MESSAGE value="Repeated and missing number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repeated and missing number" />
+    <MESSAGE value="count inversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="count inversion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -599,6 +597,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/striver_sheet/array3/majorityn3/Naive.java</url>
+          <line>6</line>
+          <properties class="striver_sheet.array3.majorityn3.Naive" method="majorityElement">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/striver_sheet/array1/PascalTriangle/PrintPascalTriangle.java</url>
