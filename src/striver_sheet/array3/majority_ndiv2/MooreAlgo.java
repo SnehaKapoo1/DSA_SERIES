@@ -1,6 +1,6 @@
-package striver_sheet.array3.majorityn3;
+package striver_sheet.array3.majority_ndiv2;
 
-public class Majority_NDiv2 {
+public class MooreAlgo {
     public static int majorityElement(int[] nums) {
         int res =0;
         int count = 1;
