@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="count inversion">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Majority ||&#10;count &gt; n/3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +64,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Naive (1)">
-    <configuration name="LinearEquationSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array2.repeatandmissingvalue.LinearEquationSolution" />
+  <component name="RunManager" selected="Application.Majority_NDiv2">
+    <configuration name="Majority_NDiv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array3.majorityn3.Majority_NDiv2" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array2.repeatandmissingvalue.*" />
+          <option name="PATTERN" value="striver_sheet.array3.majorityn3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Majority_NDiv2" />
         <item itemvalue="Application.Naive (1)" />
         <item itemvalue="Application.MergeSort_Inversion" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MostOptimal_Exor" />
-        <item itemvalue="Application.LinearEquationSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -148,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00022" summary="peak of the min of every contiguous sublist">
-      <created>1643635701710</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1643635701710</updated>
     </task>
     <task id="LOCAL-00023" summary="Palindrome">
       <created>1643709317476</created>
@@ -492,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647668238731</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Majority ||&#10;count &gt; n/3">
+      <created>1647865069362</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1647865069370</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Two String" />
     <MESSAGE value="Collision handling method : Chaining" />
     <MESSAGE value="Prefix sum algorithm" />
     <MESSAGE value="Leetcode Range sum Query" />
@@ -532,7 +531,8 @@
     <MESSAGE value="Duplicate element" />
     <MESSAGE value="Repeated and missing number" />
     <MESSAGE value="count inversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="count inversion" />
+    <MESSAGE value="Majority ||&#10;count &gt; n/3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Majority ||&#10;count &gt; n/3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,15 +597,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/striver_sheet/array3/majorityn3/Naive.java</url>
-          <line>6</line>
-          <properties class="striver_sheet.array3.majorityn3.Naive" method="majorityElement">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/striver_sheet/array1/PascalTriangle/PrintPascalTriangle.java</url>
