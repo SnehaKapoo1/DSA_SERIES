@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Linked List">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Two Sum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +64,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Naive">
-    <configuration name="Naive (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array3.searchin2dmat.Naive" />
+  <component name="RunManager" selected="Application.MostEfficient">
+    <configuration name="MostEfficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver_sheet.array4.twosum.MostEfficient" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array3.searchin2dmat.*" />
+          <option name="PATTERN" value="striver_sheet.array4.twosum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostEfficient" />
         <item itemvalue="Application.Naive" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Traversal" />
-        <item itemvalue="Application.Naive (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00027" summary="infytq practice question">
-      <created>1643822496677</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1643822496677</updated>
     </task>
     <task id="LOCAL-00028" summary="leetcode practice question">
       <created>1643897361112</created>
@@ -492,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648040402001</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Two Sum">
+      <created>1648042714960</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1648042714960</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2078. Two Furthest Houses With Different Colors" />
     <MESSAGE value="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array." />
     <MESSAGE value="sliding window one more way updated" />
     <MESSAGE value="find 1st negative integer in every sliding window" />
@@ -532,7 +531,8 @@
     <MESSAGE value="Majority |&#10;count &gt; n/2" />
     <MESSAGE value="array 3" />
     <MESSAGE value="Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked List" />
+    <MESSAGE value="Two Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two Sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
