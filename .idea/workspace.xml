@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="array 3">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Linked List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00025" summary="produce the largest even number from the available digit after removing the duplicates digits.">
-      <created>1643725075773</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1643725075773</updated>
     </task>
     <task id="LOCAL-00026" summary="infytq practice question">
       <created>1643725220142</created>
@@ -492,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647938419941</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Linked List">
+      <created>1648038696278</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1648038696278</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Leetcode Range sum Query" />
     <MESSAGE value="2078. Two Furthest Houses With Different Colors" />
     <MESSAGE value="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array." />
     <MESSAGE value="sliding window one more way updated" />
@@ -532,7 +532,8 @@
     <MESSAGE value="Majority ||&#10;count &gt; n/3" />
     <MESSAGE value="Majority |&#10;count &gt; n/2" />
     <MESSAGE value="array 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="array 3" />
+    <MESSAGE value="Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
