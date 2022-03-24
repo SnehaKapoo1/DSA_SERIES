@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="InsertBegin">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Insert at end">
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/singlyll/SortedInsert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/singlyll/InsertBegin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/singlyll/InsertBegin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/singlyll/InsertBegin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +67,22 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertBegin">
-    <configuration name="InsertBegin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.InsertBegin" />
+  <component name="RunManager" selected="Application.SortedInsert">
+    <configuration name="Deletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.Deletion" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.singlyll.insertionsl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertAtNthPos (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.InsertAtNthPos" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -79,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostEfficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array4.twosum.MostEfficient" />
+    <configuration name="InsertAtNthPos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.insertionsl.InsertAtNthPos" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array4.twosum.*" />
+          <option name="PATTERN" value="linkedlist.singlyll.insertionsl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,25 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Naive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array4.twosum.Naive" />
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.insertionsl.Insertion" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array4.twosum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array4.twosum.Solution" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="striver_sheet.array4.twosum.*" />
+          <option name="PATTERN" value="linkedlist.singlyll.insertionsl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.Traversal" />
+    <configuration name="SortedInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.SortedInsert" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertBegin" />
-        <item itemvalue="Application.Traversal" />
-        <item itemvalue="Application.MostEfficient" />
-        <item itemvalue="Application.Naive" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.SortedInsert" />
+        <item itemvalue="Application.InsertAtNthPos (1)" />
+        <item itemvalue="Application.InsertAtNthPos" />
+        <item itemvalue="Application.Deletion" />
+        <item itemvalue="Application.Insertion" />
       </list>
     </recent_temporary>
   </component>
@@ -162,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Search Kth Smallest Element">
-      <created>1643910260720</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1643910260720</updated>
     </task>
     <task id="LOCAL-00031" summary="TrappingRainWater">
       <created>1643988594179</created>
@@ -506,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648094772900</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Insert at end">
+      <created>1648100473188</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1648100473188</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,7 +523,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sliding window one more way updated" />
     <MESSAGE value="find 1st negative integer in every sliding window" />
     <MESSAGE value="Greedy question" />
     <MESSAGE value="Greedy question gfg problem" />
@@ -546,7 +547,8 @@
     <MESSAGE value="Linked List" />
     <MESSAGE value="Two Sum" />
     <MESSAGE value="InsertBegin" />
-    <option name="LAST_COMMIT_MESSAGE" value="InsertBegin" />
+    <MESSAGE value="Insert at end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insert at end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
