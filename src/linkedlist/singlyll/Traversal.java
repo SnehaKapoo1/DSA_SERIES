@@ -1,5 +1,7 @@
 package linkedlist.singlyll;
 
+import static linkedlist.singlyll.InsertBegin.insertBegin;
+
 class Node{
     int data;
     Node next;
