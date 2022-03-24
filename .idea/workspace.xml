@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Two Sum">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="InsertBegin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/singlyll/InsertBegin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/singlyll/InsertBegin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,13 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00029" summary="leetcode practice question">
-      <created>1643897426022</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1643897426022</updated>
     </task>
     <task id="LOCAL-00030" summary="Search Kth Smallest Element">
       <created>1643910260720</created>
@@ -506,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648044712548</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="InsertBegin">
+      <created>1648094772900</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1648094772900</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,7 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array." />
     <MESSAGE value="sliding window one more way updated" />
     <MESSAGE value="find 1st negative integer in every sliding window" />
     <MESSAGE value="Greedy question" />
@@ -546,7 +545,8 @@
     <MESSAGE value="array 3" />
     <MESSAGE value="Linked List" />
     <MESSAGE value="Two Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two Sum" />
+    <MESSAGE value="InsertBegin" />
+    <option name="LAST_COMMIT_MESSAGE" value="InsertBegin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
