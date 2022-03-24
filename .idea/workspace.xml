@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Insert at end">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/singlyll/SortedInsert.java" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Insertion operation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/singlyll/InsertBegin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +64,26 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortedInsert">
+  <component name="RunManager" selected="Application.FindMiddle">
     <configuration name="Deletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.Deletion" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="linkedlist.singlyll.insertionsl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.linkedList.FindMiddle" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,19 +106,6 @@
     </configuration>
     <configuration name="InsertAtNthPos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.insertionsl.InsertAtNthPos" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.singlyll.insertionsl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.insertionsl.Insertion" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMiddle" />
         <item itemvalue="Application.SortedInsert" />
         <item itemvalue="Application.InsertAtNthPos (1)" />
         <item itemvalue="Application.InsertAtNthPos" />
         <item itemvalue="Application.Deletion" />
-        <item itemvalue="Application.Insertion" />
       </list>
     </recent_temporary>
   </component>
@@ -164,13 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00031" summary="TrappingRainWater">
-      <created>1643988594179</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1643988594179</updated>
     </task>
     <task id="LOCAL-00032" summary="Search In m * n Matrix">
       <created>1644053201915</created>
@@ -508,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648100473188</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Insertion operation">
+      <created>1648109950852</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1648109950852</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="find 1st negative integer in every sliding window" />
     <MESSAGE value="Greedy question" />
     <MESSAGE value="Greedy question gfg problem" />
     <MESSAGE value="Kadane's algorithm" />
@@ -548,7 +544,8 @@
     <MESSAGE value="Two Sum" />
     <MESSAGE value="InsertBegin" />
     <MESSAGE value="Insert at end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insert at end" />
+    <MESSAGE value="Insertion operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insertion operation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
