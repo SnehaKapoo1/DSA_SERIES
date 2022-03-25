@@ -1,6 +1,5 @@
 package questions.linkedList;
 
-
 public class FindMiddle {
     public static void findMiddleNaive(Node head){
         if(head == null) return;

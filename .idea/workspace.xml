@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Insertion operation">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Middle node">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questions/linkedList/FindMiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions/linkedList/FindMiddle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,13 +73,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindMiddle">
-    <configuration name="Deletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.Deletion" />
+  <component name="RunManager" selected="Application.ReverseDoublyLL">
+    <configuration name="Creationdll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.Creationdll" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.singlyll.insertionsl.*" />
+          <option name="PATTERN" value="linkedlist.doublyll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +87,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.linkedList.FindMiddle" />
+    <configuration name="InsertAtBegin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.InsertAtBegin" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.doublyll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.InsertAtEnd" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.doublyll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.linkedList.Reverse" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -91,51 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertAtNthPos (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.InsertAtNthPos" />
+    <configuration name="ReverseDoublyLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.ReverseDoublyLL" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.singlyll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertAtNthPos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.insertionsl.InsertAtNthPos" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.singlyll.insertionsl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array4.twosum.Solution" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="striver_sheet.array4.twosum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortedInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.SortedInsert" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.singlyll.*" />
+          <option name="PATTERN" value="linkedlist.doublyll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindMiddle" />
-        <item itemvalue="Application.SortedInsert" />
-        <item itemvalue="Application.InsertAtNthPos (1)" />
-        <item itemvalue="Application.InsertAtNthPos" />
-        <item itemvalue="Application.Deletion" />
+        <item itemvalue="Application.ReverseDoublyLL" />
+        <item itemvalue="Application.Reverse" />
+        <item itemvalue="Application.InsertAtEnd" />
+        <item itemvalue="Application.InsertAtBegin" />
+        <item itemvalue="Application.Creationdll" />
       </list>
     </recent_temporary>
   </component>
@@ -161,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Search In m * n Matrix">
-      <created>1644053201915</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1644053201915</updated>
     </task>
     <task id="LOCAL-00033" summary="Buy and Sell 1">
       <created>1644058935761</created>
@@ -505,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648109950852</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Middle node">
+      <created>1648112231706</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1648112231706</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Greedy question" />
     <MESSAGE value="Greedy question gfg problem" />
     <MESSAGE value="Kadane's algorithm" />
     <MESSAGE value="Greedy algorithm" />
@@ -545,7 +540,8 @@
     <MESSAGE value="InsertBegin" />
     <MESSAGE value="Insert at end" />
     <MESSAGE value="Insertion operation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insertion operation" />
+    <MESSAGE value="Middle node" />
+    <option name="LAST_COMMIT_MESSAGE" value="Middle node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
