@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Middle node">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Doubly Linked List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questions/linkedList/FindMiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions/linkedList/FindMiddle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +72,22 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseDoublyLL">
-    <configuration name="Creationdll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.Creationdll" />
+  <component name="RunManager" selected="Application.CreationCLL">
+    <configuration name="CreationCLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.circularll.CreationCLL" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.circularll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteFront" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.DeleteFront" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -87,21 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertAtBegin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.InsertAtBegin" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.doublyll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertAtEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.InsertAtEnd" />
+    <configuration name="DeleteLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.DeleteLastNode" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreationCLL" />
+        <item itemvalue="Application.DeleteLastNode" />
+        <item itemvalue="Application.DeleteFront" />
         <item itemvalue="Application.ReverseDoublyLL" />
         <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.InsertAtEnd" />
-        <item itemvalue="Application.InsertAtBegin" />
-        <item itemvalue="Application.Creationdll" />
       </list>
     </recent_temporary>
   </component>
@@ -157,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Buy and Sell 1">
-      <created>1644058935761</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1644058935761</updated>
     </task>
     <task id="LOCAL-00034" summary="How many numbers smaller than current number">
       <created>1644092577712</created>
@@ -501,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648112231706</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Doubly Linked List">
+      <created>1648188372393</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1648188372394</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Greedy question gfg problem" />
     <MESSAGE value="Kadane's algorithm" />
     <MESSAGE value="Greedy algorithm" />
     <MESSAGE value="!!" />
@@ -541,7 +539,8 @@
     <MESSAGE value="Insert at end" />
     <MESSAGE value="Insertion operation" />
     <MESSAGE value="Middle node" />
-    <option name="LAST_COMMIT_MESSAGE" value="Middle node" />
+    <MESSAGE value="Doubly Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doubly Linked List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
