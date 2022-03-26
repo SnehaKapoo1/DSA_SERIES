@@ -1,6 +1,8 @@
 package linkedlist.singlyll;
 
- class Node{
+import static linkedlist.singlyll.ReverseSLL.reverseMethod;
+
+class Node{
      int data;
      Node next;
     Node(int ele){
@@ -57,10 +59,12 @@ public class Traversal {
         head.next.next.next = new Node(40);
         printList(head);
         System.out.println();
-        recursiveDisplay(head);
+        /*recursiveDisplay(head);
         System.out.println();
         System.out.println("Searched element is at index" + ": " + searchItemIterative(head, 20));
         System.out.println();
-        System.out.println("Searched element is at position" + ": " + recursiveSearch(head, 40));
+        System.out.println("Searched element is at position" + ": " + recursiveSearch(head, 40));*/
+        head = reverseMethod(head);
+        printList(head);
     }
 }

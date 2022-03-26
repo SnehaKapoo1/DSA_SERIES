@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Doubly Linked List">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Circular Linked List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreationCLL">
+  <component name="RunManager" selected="Application.Traversal">
     <configuration name="CreationCLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.circularll.CreationCLL" />
       <module name="Demo" />
@@ -112,19 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.linkedList.Reverse" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseDoublyLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.ReverseDoublyLL" />
       <module name="Demo" />
@@ -138,13 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.Traversal" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.singlyll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Traversal" />
         <item itemvalue="Application.CreationCLL" />
         <item itemvalue="Application.DeleteLastNode" />
         <item itemvalue="Application.DeleteFront" />
         <item itemvalue="Application.ReverseDoublyLL" />
-        <item itemvalue="Application.Reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00034" summary="How many numbers smaller than current number">
-      <created>1644092577712</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1644092577712</updated>
     </task>
     <task id="LOCAL-00035" summary=" 1512. Number Of Good Pairs">
       <created>1644092962874</created>
@@ -500,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648188372394</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Circular Linked List">
+      <created>1648192736366</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1648192736366</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kadane's algorithm" />
     <MESSAGE value="Greedy algorithm" />
     <MESSAGE value="!!" />
     <MESSAGE value="Heap" />
@@ -540,7 +540,8 @@
     <MESSAGE value="Insertion operation" />
     <MESSAGE value="Middle node" />
     <MESSAGE value="Doubly Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doubly Linked List" />
+    <MESSAGE value="Circular Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circular Linked List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
