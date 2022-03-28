@@ -2,6 +2,8 @@ package linkedlist.circularll;
 
 import static linkedlist.circularll.InsertAtBegin.insertBeginCLLEfficient;
 import static linkedlist.circularll.InsertAtBegin.insertBeginCLLNaive;
+import static linkedlist.circularll.InsertAtEnd.insertAtEndNaive;
+import static linkedlist.circularll.InsertAtEnd.insertEndCLLEfficient;
 
 class Node{
     int data;
@@ -30,12 +32,20 @@ public class CreationCLLAndTraversal {
         head.next.next.next.next = head;
         printList(head);
 
-        System.out.println();
+        /*System.out.println();
         head = insertBeginCLLNaive(head, 5);
         printList(head);
 
         System.out.println();
         head = insertBeginCLLEfficient(head, 2);
+        printList(head);*/
+
+        System.out.println();
+        head = insertAtEndNaive(head, 50);
+        printList(head);
+
+        System.out.println();
+        head = insertEndCLLEfficient(head, 60);
         printList(head);
 
     }
