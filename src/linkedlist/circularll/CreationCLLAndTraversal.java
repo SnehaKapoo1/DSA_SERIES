@@ -1,5 +1,8 @@
 package linkedlist.circularll;
 
+import static linkedlist.circularll.InsertAtBegin.insertBeginCLLEfficient;
+import static linkedlist.circularll.InsertAtBegin.insertBeginCLLNaive;
+
 class Node{
     int data;
     Node next;
@@ -26,5 +29,14 @@ public class CreationCLLAndTraversal {
         head.next.next.next = new Node(40);
         head.next.next.next.next = head;
         printList(head);
+
+        System.out.println();
+        head = insertBeginCLLNaive(head, 5);
+        printList(head);
+
+        System.out.println();
+        head = insertBeginCLLEfficient(head, 2);
+        printList(head);
+
     }
 }
