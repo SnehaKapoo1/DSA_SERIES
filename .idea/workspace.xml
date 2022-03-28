@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Circular Linked List">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Reverse SLL">
+      <change afterPath="$PROJECT_DIR$/src/questions/linkedList/MergeTwoSortedLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/singlyll/Traversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00035" summary=" 1512. Number Of Good Pairs">
-      <created>1644092962874</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1644092962874</updated>
     </task>
     <task id="LOCAL-00036" summary="771. Jewels and Stones">
       <created>1644093138793</created>
@@ -501,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648192736366</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Reverse SLL">
+      <created>1648314040170</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1648314040170</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Greedy algorithm" />
     <MESSAGE value="!!" />
     <MESSAGE value="Heap" />
     <MESSAGE value="Striver's sheet" />
@@ -541,7 +540,8 @@
     <MESSAGE value="Middle node" />
     <MESSAGE value="Doubly Linked List" />
     <MESSAGE value="Circular Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Circular Linked List" />
+    <MESSAGE value="Reverse SLL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse SLL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
