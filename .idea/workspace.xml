@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Circular LL insert at beginning">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Circular LL insert at last">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/circularll/CreationCLLAndTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/circularll/CreationCLLAndTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreationCLLAndTraversal">
+  <component name="RunManager" selected="Application.PrintNthNodeFromBack">
     <configuration name="CreationCLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.circularll.CreationCLL" />
       <module name="Demo" />
@@ -100,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteFront" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.DeleteFront" />
+    <configuration name="DeleteLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.DeleteLastNode" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.doublyll.DeleteLastNode" />
+    <configuration name="PrintNthNodeFromBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.linkedList.PrintNthNodeFromBack" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.doublyll.*" />
+          <option name="PATTERN" value="questions.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintNthNodeFromBack" />
         <item itemvalue="Application.CreationCLLAndTraversal" />
         <item itemvalue="Application.Traversal" />
         <item itemvalue="Application.CreationCLL" />
         <item itemvalue="Application.DeleteLastNode" />
-        <item itemvalue="Application.DeleteFront" />
       </list>
     </recent_temporary>
   </component>
@@ -157,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Ransome note">
-      <created>1644430305267</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1644430305267</updated>
     </task>
     <task id="LOCAL-00039" summary="Two String">
       <created>1644433340574</created>
@@ -501,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648454038059</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Circular LL insert at last">
+      <created>1648456636383</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1648456636383</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Striver's sheet" />
     <MESSAGE value="Array part |" />
     <MESSAGE value="Pascal triangle" />
     <MESSAGE value="Next Permutation" />
@@ -541,7 +539,8 @@
     <MESSAGE value="Reverse SLL" />
     <MESSAGE value="Merge Two sorted LL" />
     <MESSAGE value="Circular LL insert at beginning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Circular LL insert at beginning" />
+    <MESSAGE value="Circular LL insert at last" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circular LL insert at last" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
