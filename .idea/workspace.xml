@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Circular LL insert at last">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Print Nth node from back of Ll">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Two String">
-      <created>1644433340574</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1644433340574</updated>
     </task>
     <task id="LOCAL-00040" summary="Collision handling method : Chaining">
       <created>1644485646500</created>
@@ -500,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648456636383</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Print Nth node from back of Ll">
+      <created>1648557342940</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1648557342940</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array part |" />
     <MESSAGE value="Pascal triangle" />
     <MESSAGE value="Next Permutation" />
     <MESSAGE value="Sort 0's 1's 2's" />
@@ -540,7 +539,8 @@
     <MESSAGE value="Merge Two sorted LL" />
     <MESSAGE value="Circular LL insert at beginning" />
     <MESSAGE value="Circular LL insert at last" />
-    <option name="LAST_COMMIT_MESSAGE" value="Circular LL insert at last" />
+    <MESSAGE value="Print Nth node from back of Ll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Print Nth node from back of Ll" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
