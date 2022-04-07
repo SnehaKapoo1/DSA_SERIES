@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Remove Duplicate from SLL">
-      <change afterPath="$PROJECT_DIR$/src/questions/linkedList/DetectLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="DetectLoop">
+      <change beforePath="$PROJECT_DIR$/src/questions/linkedList/DetectAndRemoveLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions/linkedList/DetectAndRemoveLoop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Prefix sum algorithm">
-      <created>1644572466380</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1644572466380</updated>
     </task>
     <task id="LOCAL-00042" summary="Prefix sum algorithm">
       <created>1644572519891</created>
@@ -501,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648620777994</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="DetectLoop">
+      <created>1649298332912</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1649298332912</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Next Permutation" />
     <MESSAGE value="Sort 0's 1's 2's" />
     <MESSAGE value="Stock and Buy" />
     <MESSAGE value="Rotate Matrix" />
@@ -541,7 +539,8 @@
     <MESSAGE value="Circular LL insert at last" />
     <MESSAGE value="Print Nth node from back of Ll" />
     <MESSAGE value="Remove Duplicate from SLL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Duplicate from SLL" />
+    <MESSAGE value="DetectLoop" />
+    <option name="LAST_COMMIT_MESSAGE" value="DetectLoop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
