@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="DetectLoop">
-      <change beforePath="$PROJECT_DIR$/src/questions/linkedList/DetectAndRemoveLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions/linkedList/DetectAndRemoveLoop.java" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Detect and Remove Loop">
+      <change afterPath="$PROJECT_DIR$/src/questions/linkedList/SegregateOddAndEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questions/HelpMLA2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questions/Problem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questions/linkedList/RemoveDuplicateFromShortedLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions/linkedList/RemoveDuplicateFromShortedLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DetectLoop">
+  <component name="RunManager" selected="Application.SegregateEvenAndOdd">
     <configuration name="CreationCLLAndTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.circularll.CreationCLLAndTraversal" />
       <module name="Demo" />
@@ -125,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.singlyll.Traversal" />
+    <configuration name="SegregateEvenAndOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.linkedList.SegregateEvenAndOdd" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.singlyll.*" />
+          <option name="PATTERN" value="questions.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SegregateEvenAndOdd" />
         <item itemvalue="Application.DetectLoop" />
         <item itemvalue="Application.ReverseInGroup" />
         <item itemvalue="Application.PrintNthNodeFromBack" />
         <item itemvalue="Application.CreationCLLAndTraversal" />
-        <item itemvalue="Application.Traversal" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Prefix sum algorithm">
-      <created>1644572519891</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1644572519891</updated>
     </task>
     <task id="LOCAL-00043" summary="Leetcode Range sum Query">
       <created>1644574095575</created>
@@ -500,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649298332912</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Detect and Remove Loop">
+      <created>1649305160270</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1649305160270</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sort 0's 1's 2's" />
     <MESSAGE value="Stock and Buy" />
     <MESSAGE value="Rotate Matrix" />
     <MESSAGE value="Merge two sorted arrays" />
@@ -540,7 +543,8 @@
     <MESSAGE value="Print Nth node from back of Ll" />
     <MESSAGE value="Remove Duplicate from SLL" />
     <MESSAGE value="DetectLoop" />
-    <option name="LAST_COMMIT_MESSAGE" value="DetectLoop" />
+    <MESSAGE value="Detect and Remove Loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detect and Remove Loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

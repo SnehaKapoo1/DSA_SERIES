@@ -13,4 +13,5 @@ public class RemoveDuplicateFromShortedLL {
         }
         return head;
     }
+
 }
