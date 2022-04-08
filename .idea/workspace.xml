@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Detect and Remove Loop">
-      <change afterPath="$PROJECT_DIR$/src/questions/linkedList/SegregateOddAndEven.java" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="SegregateOddAndEvena">
+      <change afterPath="$PROJECT_DIR$/src/questions/linkedList/IntersectionPointOfTwoLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questions/HelpMLA2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questions/Problem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questions/linkedList/RemoveDuplicateFromShortedLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions/linkedList/RemoveDuplicateFromShortedLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,20 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Leetcode Range sum Query">
-      <created>1644574095575</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1644574095575</updated>
-    </task>
-    <task id="LOCAL-00044" summary="2078. Two Furthest Houses With Different Colors">
-      <created>1644668552407</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1644668552407</updated>
     </task>
     <task id="LOCAL-00045" summary="Given an array of integers of size ‘n’.&#10;Our aim is to calculate the maximum sum of ‘k’ &#10;consecutive elements in the array.">
       <created>1644670716809</created>
@@ -504,7 +487,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649305160270</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="SegregateOddAndEven">
+      <created>1649394419237</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1649394419237</updated>
+    </task>
+    <task id="LOCAL-00093" summary="SegregateOddAndEvena">
+      <created>1649394501420</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1649394501420</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stock and Buy" />
     <MESSAGE value="Rotate Matrix" />
     <MESSAGE value="Merge two sorted arrays" />
     <MESSAGE value="Duplicate element" />
@@ -544,7 +540,8 @@
     <MESSAGE value="Remove Duplicate from SLL" />
     <MESSAGE value="DetectLoop" />
     <MESSAGE value="Detect and Remove Loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Detect and Remove Loop" />
+    <MESSAGE value="SegregateOddAndEvena" />
+    <option name="LAST_COMMIT_MESSAGE" value="SegregateOddAndEvena" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
