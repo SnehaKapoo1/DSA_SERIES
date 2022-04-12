@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="K stack in an array">
-      <change beforePath="$PROJECT_DIR$/src/questions/stack/KStack_InOneArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions/stack/KStack_InOneArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +72,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KStack_InOneArray">
-    <configuration name="DetectLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.linkedList.DetectLoop" />
+  <component name="RunManager" selected="Application.GetMinFromStack">
+    <configuration name="GetMinFromStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.stack.GetMinFromStack" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.linkedList.*" />
+          <option name="PATTERN" value="questions.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetMinFromStack" />
         <item itemvalue="Application.KStack_InOneArray" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.IntersectionPointOfTwoLL" />
         <item itemvalue="Application.SegregateEvenAndOdd" />
-        <item itemvalue="Application.DetectLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Greedy question">
-      <created>1645280979460</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1645280979460</updated>
     </task>
     <task id="LOCAL-00050" summary="Greedy question gfg problem">
       <created>1645283517564</created>
@@ -500,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649740700659</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="K stack in an array">
+      <created>1649741106416</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1649741106416</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
