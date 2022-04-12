@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Intersection Point Of Two LL">
-      <change afterPath="$PROJECT_DIR$/src/questions/linkedList/Node.java" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Pair swapping">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Demo/questions/linkedList/SegregateEvenAndOdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/questions/linkedList/SegregateEvenAndOdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/questions/linkedList/IntersectionPointOfTwoLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions/linkedList/IntersectionPointOfTwoLL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.KStack_InOneArray">
     <configuration name="DetectLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.linkedList.DetectLoop" />
       <module name="Demo" />
@@ -102,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.linkedList.ReverseInGroup" />
+    <configuration name="KStack_InOneArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.stack.KStack_InOneArray" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.linkedList.*" />
+          <option name="PATTERN" value="questions.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KStack_InOneArray" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.IntersectionPointOfTwoLL" />
         <item itemvalue="Application.SegregateEvenAndOdd" />
         <item itemvalue="Application.DetectLoop" />
-        <item itemvalue="Application.ReverseInGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -159,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00047" summary="sliding window one more way updated">
-      <created>1644827560103</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1644827560103</updated>
     </task>
     <task id="LOCAL-00048" summary="find 1st negative integer in every sliding window">
       <created>1644906242898</created>
@@ -503,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649399033724</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Pair swapping">
+      <created>1649538039473</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1649538039473</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge two sorted arrays" />
     <MESSAGE value="Duplicate element" />
     <MESSAGE value="Repeated and missing number" />
     <MESSAGE value="count inversion" />
@@ -543,7 +539,8 @@
     <MESSAGE value="Detect and Remove Loop" />
     <MESSAGE value="SegregateOddAndEvena" />
     <MESSAGE value="Intersection Point Of Two LL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intersection Point Of Two LL" />
+    <MESSAGE value="Pair swapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pair swapping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
