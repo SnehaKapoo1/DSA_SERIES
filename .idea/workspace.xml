@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Pair swapping">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="K stack in an array">
+      <change beforePath="$PROJECT_DIR$/src/questions/stack/KStack_InOneArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions/stack/KStack_InOneArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00048" summary="find 1st negative integer in every sliding window">
-      <created>1644906242898</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1644906242898</updated>
     </task>
     <task id="LOCAL-00049" summary="Greedy question">
       <created>1645280979460</created>
@@ -500,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649538039473</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="K stack in an array">
+      <created>1649740700659</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1649740700659</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Duplicate element" />
     <MESSAGE value="Repeated and missing number" />
     <MESSAGE value="count inversion" />
     <MESSAGE value="Majority ||&#10;count &gt; n/3" />
@@ -540,7 +539,8 @@
     <MESSAGE value="SegregateOddAndEvena" />
     <MESSAGE value="Intersection Point Of Two LL" />
     <MESSAGE value="Pair swapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pair swapping" />
+    <MESSAGE value="K stack in an array" />
+    <option name="LAST_COMMIT_MESSAGE" value="K stack in an array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

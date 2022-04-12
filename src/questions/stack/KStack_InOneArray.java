@@ -11,7 +11,7 @@ public class KStack_InOneArray {
     int s;
     int n;
 
-    int freespot;
+    int freeSpot;
 
     public KStack_InOneArray(int N, int S) {
         s = S;
@@ -30,24 +30,24 @@ public class KStack_InOneArray {
 
         next[s-1] = -1;
 
-        freespot = 0;
+        freeSpot = 0;
     }
 
     // Pushes 'X' into the Mth stack. Returns true if it gets pushed into the stack, and false otherwise.
     public boolean push(int x, int m) {
         //check for overflow
-        if(freespot == -1) {
+        if(freeSpot == -1) {
             return false;
         }
 
         //find index
-        int index = freespot;
+        int index = freeSpot;
 
         //insert element into array
         arr[index] = x;
 
-        //update freespot
-        freespot = next[index];
+        //update freeSpot
+        freeSpot = next[index];
 
         //update next;
         next[index] = top[m-1];
@@ -70,9 +70,9 @@ public class KStack_InOneArray {
 
         top[m-1] = next[index];
 
-        next[index] = freespot;
+        next[index] = freeSpot;
 
-        freespot = index;
+        freeSpot = index;
 
         return arr[index];
     }
@@ -83,5 +83,6 @@ public class KStack_InOneArray {
         ks.push(20, 1);
         ks.push(30, 2);
         System.out.println(Arrays.toString(ks.arr));
+        System.out.println(ks.pop(1));
     }
 }
