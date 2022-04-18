@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Palindrome">
-      <change afterPath="$PROJECT_DIR$/src/questions/linkedList/SumOfTwoLL.java" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Sum of two LL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,9 +72,9 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumOfTwoLL">
-    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.stack.MinStack" />
+  <component name="RunManager" selected="Application.InfixToPostFix">
+    <configuration name="InfixToPostFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.stack.InfixToPostFix" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InfixToPostFix" />
         <item itemvalue="Application.SumOfTwoLL" />
         <item itemvalue="Application.PreviousGreater" />
         <item itemvalue="Application.StockSpan" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.MinStack" />
       </list>
     </recent_temporary>
   </component>
@@ -157,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00053" summary="!!">
-      <created>1645810461780</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1645810461780</updated>
     </task>
     <task id="LOCAL-00054" summary="Heap">
       <created>1646236341210</created>
@@ -501,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649831127540</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Sum of two LL">
+      <created>1649930333735</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1649930333735</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Majority ||&#10;count &gt; n/3" />
     <MESSAGE value="Majority |&#10;count &gt; n/2" />
     <MESSAGE value="array 3" />
     <MESSAGE value="Linked List" />
@@ -541,7 +539,8 @@
     <MESSAGE value="K stack in an array" />
     <MESSAGE value="Get Minimum from stack" />
     <MESSAGE value="Palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="Palindrome" />
+    <MESSAGE value="Sum of two LL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sum of two LL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
