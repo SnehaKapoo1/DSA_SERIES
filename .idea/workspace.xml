@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Infix To Postfix Evaluation Using Stack">
-      <change afterPath="$PROJECT_DIR$/src/queue/SimpleArrayImplementationOfArray.java" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Simple array implementation of queue ds.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,20 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleArrayImplementationOfArray">
+  <component name="RunManager" selected="Application.EfficientArrayImple">
+    <configuration name="EfficientArrayImple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.EfficientArrayImple" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InfixToPostFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.stack.InfixToPostFix" />
       <module name="Demo" />
@@ -126,26 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwoLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.linkedList.SumOfTwoLL" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EfficientArrayImple" />
         <item itemvalue="Application.SimpleArrayImplementationOfArray" />
         <item itemvalue="Application.InfixToPrefix" />
         <item itemvalue="Application.InfixToPostfix_Evaluation" />
         <item itemvalue="Application.InfixToPostFix" />
-        <item itemvalue="Application.SumOfTwoLL" />
       </list>
     </recent_temporary>
   </component>
@@ -157,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Array part |">
-      <created>1646546761374</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1646546761374</updated>
     </task>
     <task id="LOCAL-00058" summary="Array part |">
       <created>1646583902024</created>
@@ -501,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650344505269</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Simple array implementation of queue ds.">
+      <created>1650430151398</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1650430151398</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Two Sum" />
     <MESSAGE value="InsertBegin" />
     <MESSAGE value="Insert at end" />
     <MESSAGE value="Insertion operation" />
@@ -541,7 +539,8 @@
     <MESSAGE value="Infix To Postfix Using Stack" />
     <MESSAGE value="Infix To Prefix Using Stack" />
     <MESSAGE value="Infix To Postfix Evaluation Using Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Infix To Postfix Evaluation Using Stack" />
+    <MESSAGE value="Simple array implementation of queue ds." />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple array implementation of queue ds." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
