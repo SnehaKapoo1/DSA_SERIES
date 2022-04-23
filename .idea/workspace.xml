@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Linked List implementation of queue ds." />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Queue In Java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Pascal triangle">
-      <created>1646817709252</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1646817709260</updated>
     </task>
     <task id="LOCAL-00061" summary="Next Permutation">
       <created>1646822491239</created>
@@ -498,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650688875684</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Queue In Java">
+      <created>1650689350699</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1650689350700</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -513,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Insertion operation" />
     <MESSAGE value="Middle node" />
     <MESSAGE value="Doubly Linked List" />
     <MESSAGE value="Circular Linked List" />
@@ -538,7 +539,8 @@
     <MESSAGE value="Simple array implementation of queue ds." />
     <MESSAGE value="Efficient array implementation of queue ds." />
     <MESSAGE value="Linked List implementation of queue ds." />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked List implementation of queue ds." />
+    <MESSAGE value="Queue In Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queue In Java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
