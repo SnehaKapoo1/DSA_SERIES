@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Queue In Java">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Stack in Queue Java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,13 +72,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueInJava">
-    <configuration name="EfficientArrayImple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.EfficientArrayImple" />
+  <component name="RunManager" selected="Application.ArrayImpDeque">
+    <configuration name="ArrayImpDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deque.ArrayImpDeque" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="deque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfixToPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.stack.InfixToPrefix" />
+    <configuration name="EfficientArrayImple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.EfficientArrayImple" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.stack.*" />
+          <option name="PATTERN" value="queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleArrayImplementationOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.SimpleArrayImplementationOfArray" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.Test" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="questions.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayImpDeque" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.QueueInJava" />
         <item itemvalue="Application.LinkedListImple" />
         <item itemvalue="Application.EfficientArrayImple" />
-        <item itemvalue="Application.SimpleArrayImplementationOfArray" />
-        <item itemvalue="Application.InfixToPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Next Permutation">
-      <created>1646822491239</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1646822491239</updated>
     </task>
     <task id="LOCAL-00062" summary="Sort 0's 1's 2's">
       <created>1646892229391</created>
@@ -500,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650689350700</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="Stack in Queue Java">
+      <created>1650690899020</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1650690899020</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Middle node" />
     <MESSAGE value="Doubly Linked List" />
     <MESSAGE value="Circular Linked List" />
     <MESSAGE value="Reverse SLL" />
@@ -540,7 +539,8 @@
     <MESSAGE value="Efficient array implementation of queue ds." />
     <MESSAGE value="Linked List implementation of queue ds." />
     <MESSAGE value="Queue In Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue In Java" />
+    <MESSAGE value="Stack in Queue Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack in Queue Java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
