@@ -72,7 +72,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EfficientImple">
+  <component name="RunManager" selected="Application.CumulativeSum">
     <configuration name="ArrayImpDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="deque.ArrayImpDeque" />
       <module name="Demo" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EfficientImple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deque.EfficientImple" />
+    <configuration name="CumulativeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="worktech.arrays.CumulativeSum" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deque.*" />
+          <option name="PATTERN" value="worktech.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListImple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.LinkedListImple" />
+    <configuration name="EfficientImple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deque.EfficientImple" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="deque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CumulativeSum" />
         <item itemvalue="Application.EfficientImple" />
         <item itemvalue="Application.ArrayImpDeque" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.QueueInJava" />
-        <item itemvalue="Application.LinkedListImple" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Stock and Buy">
-      <created>1646903702957</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1646903702957</updated>
     </task>
     <task id="LOCAL-00064" summary="Rotate Matrix">
       <created>1646982470283</created>
@@ -500,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651891608019</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Deque">
+      <created>1651893189264</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1651893189264</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
