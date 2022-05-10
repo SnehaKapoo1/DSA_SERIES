@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Deque">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="CumulativeSum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CumulativeSum">
+  <component name="RunManager" selected="Application.PositiveCumulativeSum">
     <configuration name="ArrayImpDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="deque.ArrayImpDeque" />
       <module name="Demo" />
@@ -112,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueInJava" />
+    <configuration name="PositiveCumulativeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="worktech.arrays.PositiveCumulativeSum" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="worktech.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PositiveCumulativeSum" />
         <item itemvalue="Application.CumulativeSum" />
         <item itemvalue="Application.EfficientImple" />
         <item itemvalue="Application.ArrayImpDeque" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.QueueInJava" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Rotate Matrix">
-      <created>1646982470283</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1646982470283</updated>
     </task>
     <task id="LOCAL-00065" summary="Merge two sorted arrays">
       <created>1647009484625</created>
@@ -500,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651893189264</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="CumulativeSum">
+      <created>1652148373451</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1652148373451</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Circular Linked List" />
     <MESSAGE value="Reverse SLL" />
     <MESSAGE value="Merge Two sorted LL" />
     <MESSAGE value="Circular LL insert at beginning" />
@@ -540,7 +539,8 @@
     <MESSAGE value="Queue In Java" />
     <MESSAGE value="Stack in Queue Java" />
     <MESSAGE value="Deque" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deque" />
+    <MESSAGE value="CumulativeSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="CumulativeSum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
