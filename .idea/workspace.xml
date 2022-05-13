@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="CumulativeSum">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Positive CumulativeSum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/PrintKDistanceNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/PrintKDistanceNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/worktech/arrays/PositiveCumulativeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/worktech/arrays/PositiveCumulativeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +74,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PositiveCumulativeSum">
-    <configuration name="ArrayImpDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deque.ArrayImpDeque" />
+  <component name="RunManager" selected="Application.Implementation">
+    <configuration name="CawStudio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.CawStudio" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deque.*" />
+          <option name="PATTERN" value="questions.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CumulativeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="worktech.arrays.CumulativeSum" />
+    <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.Implementation" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="worktech.arrays.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EfficientImple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deque.EfficientImple" />
+    <configuration name="MCQ (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MCQ" />
+      <module name="Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MCQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.MCQ" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deque.*" />
+          <option name="PATTERN" value="questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,26 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.Test" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Implementation" />
+        <item itemvalue="Application.CawStudio" />
+        <item itemvalue="Application.MCQ (1)" />
+        <item itemvalue="Application.MCQ" />
         <item itemvalue="Application.PositiveCumulativeSum" />
-        <item itemvalue="Application.CumulativeSum" />
-        <item itemvalue="Application.EfficientImple" />
-        <item itemvalue="Application.ArrayImpDeque" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -156,20 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Merge two sorted arrays">
-      <created>1647009484625</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1647009484626</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Merge two sorted arrays">
-      <created>1647016335238</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1647016335238</updated>
     </task>
     <task id="LOCAL-00067" summary="Merge two sorted arrays">
       <created>1647078983182</created>
@@ -500,7 +482,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652148373451</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="CumulativeSum">
+      <created>1652150102234</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1652150102235</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Positive CumulativeSum">
+      <created>1652150129346</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1652150129346</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reverse SLL" />
     <MESSAGE value="Merge Two sorted LL" />
     <MESSAGE value="Circular LL insert at beginning" />
     <MESSAGE value="Circular LL insert at last" />
@@ -540,7 +535,8 @@
     <MESSAGE value="Stack in Queue Java" />
     <MESSAGE value="Deque" />
     <MESSAGE value="CumulativeSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="CumulativeSum" />
+    <MESSAGE value="Positive CumulativeSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Positive CumulativeSum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
