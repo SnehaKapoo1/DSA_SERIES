@@ -2,6 +2,9 @@ package tree;
 
 import static tree.HeightOfTheBinaryTree.height;
 import static tree.Inorder.inorder;
+import static tree.LOT_Line_By_Line.printLevelOrder;
+import static tree.LOT_Line_By_Line.printLevelOrderMethod2;
+import static tree.LevelOrder.lOT;
 import static tree.Postorder.postorder;
 import static tree.Preorder.preorder;
 import static tree.PrintKDistanceNodes.printKDistance;
@@ -21,7 +24,7 @@ public class Implementation {
         root.right = new Node(30);
         root.left.left = new Node(40);
 
-        inorder(root);
+        /*inorder(root);
         System.out.println();
         preorder(root);
         System.out.println();
@@ -29,5 +32,19 @@ public class Implementation {
         System.out.println();
         System.out.println(height(root));
         printKDistance(root, 1);
+        System.out.println();
+
+        //level order traversal first approach
+        int k = height(root);
+        for(int i=0; i<k; i++){
+            printKDistance(root, i);
+        }
+        System.out.println();
+        lOT(root); */
+        System.out.println();
+
+        printLevelOrder(root);
+        System.out.println();
+        printLevelOrderMethod2(root);
     }
 }

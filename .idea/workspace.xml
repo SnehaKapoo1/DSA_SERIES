@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Positive CumulativeSum">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/PrintKDistanceNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/PrintKDistanceNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/worktech/arrays/PositiveCumulativeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/worktech/arrays/PositiveCumulativeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Implementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,13 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Merge two sorted arrays">
-      <created>1647078983182</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1647078983182</updated>
     </task>
     <task id="LOCAL-00068" summary="Duplicate element">
       <created>1647248074026</created>
@@ -496,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652150129346</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Tree">
+      <created>1652407765493</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1652407765493</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +510,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge Two sorted LL" />
     <MESSAGE value="Circular LL insert at beginning" />
     <MESSAGE value="Circular LL insert at last" />
     <MESSAGE value="Print Nth node from back of Ll" />
@@ -536,7 +534,8 @@
     <MESSAGE value="Deque" />
     <MESSAGE value="CumulativeSum" />
     <MESSAGE value="Positive CumulativeSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Positive CumulativeSum" />
+    <MESSAGE value="Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
