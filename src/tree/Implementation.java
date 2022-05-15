@@ -5,9 +5,11 @@ import static tree.Inorder.inorder;
 import static tree.LOT_Line_By_Line.printLevelOrder;
 import static tree.LOT_Line_By_Line.printLevelOrderMethod2;
 import static tree.LevelOrder.lOT;
+import static tree.MaximumNode.maxNode;
 import static tree.Postorder.postorder;
 import static tree.Preorder.preorder;
 import static tree.PrintKDistanceNodes.printKDistance;
+import static tree.SizeOfBinaryTree.getSize;
 
 class Node{
     int key;
@@ -46,5 +48,7 @@ public class Implementation {
         printLevelOrder(root);
         System.out.println();
         printLevelOrderMethod2(root);
+        System.out.println(getSize(root));
+        System.out.println("max node " + maxNode(root));
     }
 }

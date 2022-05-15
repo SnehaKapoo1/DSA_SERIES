@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Tree">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Level Order Traversal">
+      <change afterPath="$PROJECT_DIR$/src/tree/SizeOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tree/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Implementation.java" afterDir="false" />
     </list>
@@ -151,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Duplicate element">
-      <created>1647248074026</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1647248074026</updated>
     </task>
     <task id="LOCAL-00069" summary="Repeated and missing number">
       <created>1647330253504</created>
@@ -495,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652407765493</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Level Order Traversal">
+      <created>1652497905066</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1652497905066</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Circular LL insert at beginning" />
     <MESSAGE value="Circular LL insert at last" />
     <MESSAGE value="Print Nth node from back of Ll" />
     <MESSAGE value="Remove Duplicate from SLL" />
@@ -535,7 +535,8 @@
     <MESSAGE value="CumulativeSum" />
     <MESSAGE value="Positive CumulativeSum" />
     <MESSAGE value="Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree" />
+    <MESSAGE value="Level Order Traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level Order Traversal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
