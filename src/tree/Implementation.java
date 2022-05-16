@@ -1,5 +1,6 @@
 package tree;
 
+import static tree.ChildrenSumProperty.isCSum;
 import static tree.HeightOfTheBinaryTree.height;
 import static tree.Inorder.inorder;
 import static tree.LOT_Line_By_Line.printLevelOrder;
@@ -50,5 +51,6 @@ public class Implementation {
         printLevelOrderMethod2(root);
         System.out.println(getSize(root));
         System.out.println("max node " + maxNode(root));
+        System.out.println(isCSum(root));
     }
 }
