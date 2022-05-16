@@ -1,5 +1,6 @@
 package tree;
 
+import static tree.BalancedBinaryTree.*;
 import static tree.ChildrenSumProperty.isCSum;
 import static tree.HeightOfTheBinaryTree.height;
 import static tree.Inorder.inorder;
@@ -26,6 +27,7 @@ public class Implementation {
         root.left = new Node(20);
         root.right = new Node(30);
         root.left.left = new Node(40);
+        root.left.left.right = new Node(50);
 
         /*inorder(root);
         System.out.println();
@@ -52,5 +54,7 @@ public class Implementation {
         System.out.println(getSize(root));
         System.out.println("max node " + maxNode(root));
         System.out.println(isCSum(root));
+        System.out.println(isBalancedNaiveSol(root));
+        System.out.println(isBalancedEfficientSol(root));
     }
 }
