@@ -1,5 +1,6 @@
 package tree;
 
+import static tree.BTTODLL.*;
 import static tree.BalancedBinaryTree.*;
 import static tree.ChildrenSumProperty.isCSum;
 import static tree.HeightOfTheBinaryTree.height;
@@ -24,13 +25,11 @@ class Node{
 }
 public class Implementation {
     public static void main(String[] args) {
-        Node root = new Node(10);
-        root.left = new Node(20);
-        root.right = new Node(30);
-        root.left.left = new Node(40);
-        root.left.right = new Node(50);
-        root.right.left = new Node(60);
-        root.right.right = new Node(70);
+        Node root=new Node(10);
+        root.left=new Node(5);
+        root.right=new Node(20);
+        root.right.left=new Node(30);
+        root.right.right=new Node(35);
 
         /*inorder(root);
         System.out.println();
@@ -60,5 +59,7 @@ public class Implementation {
         System.out.println(isBalancedNaiveSol(root));
         System.out.println(isBalancedEfficientSol(root));
         System.out.println(maxWidth(root));
+        Node head=binaryTreeToDoublyLinkedList(root);
+        printlist(head);
     }
 }

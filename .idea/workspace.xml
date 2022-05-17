@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Check Balance Binary Tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/tree/Implementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/tree/Implementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Implementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,13 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00073" summary="array 3">
-      <created>1647938419941</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1647938419941</updated>
     </task>
     <task id="LOCAL-00074" summary="Linked List">
       <created>1648038696278</created>
@@ -494,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652681503105</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Check Balance Binary Tree">
+      <created>1652765769248</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1652765769248</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
