@@ -8,6 +8,7 @@ import static tree.LOT_Line_By_Line.printLevelOrder;
 import static tree.LOT_Line_By_Line.printLevelOrderMethod2;
 import static tree.LevelOrder.lOT;
 import static tree.MaximumNode.maxNode;
+import static tree.MaximumWidthOfBT.maxWidth;
 import static tree.Postorder.postorder;
 import static tree.Preorder.preorder;
 import static tree.PrintKDistanceNodes.printKDistance;
@@ -27,7 +28,9 @@ public class Implementation {
         root.left = new Node(20);
         root.right = new Node(30);
         root.left.left = new Node(40);
-        root.left.left.right = new Node(50);
+        root.left.right = new Node(50);
+        root.right.left = new Node(60);
+        root.right.right = new Node(70);
 
         /*inorder(root);
         System.out.println();
@@ -56,5 +59,6 @@ public class Implementation {
         System.out.println(isCSum(root));
         System.out.println(isBalancedNaiveSol(root));
         System.out.println(isBalancedEfficientSol(root));
+        System.out.println(maxWidth(root));
     }
 }
