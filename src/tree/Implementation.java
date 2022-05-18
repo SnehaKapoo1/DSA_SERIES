@@ -5,6 +5,9 @@ import static tree.BalancedBinaryTree.*;
 import static tree.ChildrenSumProperty.isCSum;
 import static tree.HeightOfTheBinaryTree.height;
 import static tree.Inorder.inorder;
+import static tree.IterativeInorder.iterativeInorder;
+import static tree.IterativePreorder.iterativePreOrderSpaceOptimized;
+import static tree.IterativePreorder.iterativePreorder;
 import static tree.LOT_Line_By_Line.printLevelOrder;
 import static tree.LOT_Line_By_Line.printLevelOrderMethod2;
 import static tree.LevelOrder.lOT;
@@ -48,7 +51,7 @@ public class Implementation {
         }
         System.out.println();
         lOT(root); */
-        System.out.println();
+    /*    System.out.println();
 
         printLevelOrder(root);
         System.out.println();
@@ -60,6 +63,16 @@ public class Implementation {
         System.out.println(isBalancedEfficientSol(root));
         System.out.println(maxWidth(root));
         Node head=binaryTreeToDoublyLinkedList(root);
-        printlist(head);
+        printlist(head);*/
+
+        inorder(root);
+        System.out.println();
+        iterativeInorder(root);
+        System.out.println();
+        preorder(root);
+        System.out.println();
+        iterativePreorder(root);
+        System.out.println();
+        iterativePreOrderSpaceOptimized(root);
     }
 }
