@@ -20,17 +20,19 @@ public class IterativePreorder {
 
     static void iterativePreOrderSpaceOptimized(Node root){
         Stack<Node> st = new Stack<>();
-        st.push(root);
+        //st.push(root);
         Node curr = root;
 
-        while(!st.isEmpty()){
+        while(curr != null || !st.isEmpty()){
             while(curr != null){
                 System.out.print(curr.key + " ");
                 if(curr.right != null)
                     st.push(curr.right);
                 curr = curr.left;
             }
-            curr = st.pop();
+            if(!st.isEmpty()){
+                curr = st.pop();
+            }
         }
     }
 }
