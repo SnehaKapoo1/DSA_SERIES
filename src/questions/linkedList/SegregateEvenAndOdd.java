@@ -1,6 +1,7 @@
 package questions.linkedList;
 
 import static questions.linkedList.Reverse.printList;
+import static questions.linkedList.SegregateOddAndEven.arrangeOddAndEven;
 
 public class SegregateEvenAndOdd {
     public static Node meth(Node head){
@@ -12,7 +13,7 @@ public class SegregateEvenAndOdd {
         return head;
     }
     public static void main(String[] args) {
-        Node head = new Node(10);
+        Node head = new Node(5);
         head.next = new Node(20);
         head.next.next = new Node(30);
         head.next.next.next = new Node(40);
@@ -23,5 +24,8 @@ public class SegregateEvenAndOdd {
         head = meth(head);
         System.out.println();
         printList(head);
+        System.out.println();
+        Node h= arrangeOddAndEven(head);
+        printList(h);
     }
 }
