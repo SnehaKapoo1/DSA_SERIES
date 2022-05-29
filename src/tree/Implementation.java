@@ -1,22 +1,12 @@
 package tree;
 
-import static tree.BTTODLL.*;
-import static tree.BalancedBinaryTree.*;
-import static tree.ChildrenSumProperty.isCSum;
-import static tree.HeightOfTheBinaryTree.height;
 import static tree.Inorder.inorder;
 import static tree.IterativeInorder.iterativeInorder;
 import static tree.IterativePreorder.iterativePreOrderSpaceOptimized;
 import static tree.IterativePreorder.iterativePreorder;
-import static tree.LOT_Line_By_Line.printLevelOrder;
-import static tree.LOT_Line_By_Line.printLevelOrderMethod2;
-import static tree.LevelOrder.lOT;
-import static tree.MaximumNode.maxNode;
-import static tree.MaximumWidthOfBT.maxWidth;
-import static tree.Postorder.postorder;
 import static tree.Preorder.preorder;
-import static tree.PrintKDistanceNodes.printKDistance;
-import static tree.SizeOfBinaryTree.getSize;
+import static tree.PrintSpiral.printSpiralMethod1;
+import static tree.PrintSpiral.printSpiralMethod2;
 
 class Node{
     int key;
@@ -74,5 +64,9 @@ public class Implementation {
         iterativePreorder(root);
         System.out.println();
         iterativePreOrderSpaceOptimized(root);
+        System.out.println();
+        printSpiralMethod1(root);
+        System.out.println();
+        printSpiralMethod2(root);
     }
 }

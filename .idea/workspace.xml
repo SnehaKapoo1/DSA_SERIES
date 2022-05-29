@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Construct Binary Tree from preorder and inorder.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/ConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/ConstructBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/Implementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConstructBinaryTree">
+  <component name="RunManager" selected="Application.Implementation">
     <configuration name="CawStudio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.arrays.CawStudio" />
       <module name="Demo" />
@@ -141,10 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Implementation" />
         <item itemvalue="Application.ConstructBinaryTree" />
         <item itemvalue="Application.SegregateEvenAndOdd" />
         <item itemvalue="Application.PrintNthNodeFromBack" />
-        <item itemvalue="Application.Implementation" />
         <item itemvalue="Application.CawStudio" />
       </list>
     </recent_temporary>
@@ -157,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00078" summary="InsertBegin">
-      <created>1648094772900</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1648094772900</updated>
     </task>
     <task id="LOCAL-00079" summary="Insert at end">
       <created>1648100473188</created>
@@ -501,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653117748516</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Construct Binary Tree from preorder and inorder.">
+      <created>1653120375481</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1653120375481</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
