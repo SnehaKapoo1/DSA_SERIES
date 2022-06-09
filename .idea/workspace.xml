@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Iterator of java">
-      <change afterPath="$PROJECT_DIR$/src/recursion/backtracking/maze/CountPaths_FPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Demo/algorithms/slidingwindow/fixed/Question2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/algorithms/slidingwindow/fixed/Question2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/slidingwindow/fixed/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/slidingwindow/fixed/Question2.java" afterDir="false" />
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Counting the paths of rat maze">
+      <change beforePath="$PROJECT_DIR$/src/recursion/backtracking/maze/CountPaths_FPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/backtracking/maze/CountPaths_FPP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Counting_Paths">
+  <component name="RunManager" selected="Application.CountPaths_FPP">
     <configuration name="CountPaths_FPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursion.backtracking.maze.CountPaths_FPP" />
       <module name="Demo" />
@@ -143,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Counting_Paths" />
         <item itemvalue="Application.CountPaths_FPP" />
+        <item itemvalue="Application.Counting_Paths" />
         <item itemvalue="Application.NToOne" />
         <item itemvalue="Application.Question2" />
         <item itemvalue="Application.Question1" />
@@ -159,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00081" summary="Middle node">
-      <created>1648112231706</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1648112231706</updated>
     </task>
     <task id="LOCAL-00082" summary="Doubly Linked List">
       <created>1648188372393</created>
@@ -503,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654232167523</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Counting the paths of rat maze">
+      <created>1654752456448</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1654752456449</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="K stack in an array" />
     <MESSAGE value="Get Minimum from stack" />
     <MESSAGE value="Palindrome" />
     <MESSAGE value="Sum of two LL" />
@@ -543,7 +539,8 @@
     <MESSAGE value="Construct Binary Tree from preorder and inorder." />
     <MESSAGE value="Print tree in a spiral form" />
     <MESSAGE value="Iterator of java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterator of java" />
+    <MESSAGE value="Counting the paths of rat maze" />
+    <option name="LAST_COMMIT_MESSAGE" value="Counting the paths of rat maze" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
