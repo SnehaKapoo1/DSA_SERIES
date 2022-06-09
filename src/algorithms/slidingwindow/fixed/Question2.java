@@ -9,11 +9,12 @@ public class Question2 {
     static void bruteForce(int[] nums, int k){
 
         boolean flag;
+      //  12, -1, -7, 8, -15, 30, 16, 28
 
-        for(int i=0; i< nums.length-k+1; i++){
+        for(int i = 0; i < nums.length-k+1; i++){
             flag = false;
-            for (int j=0; j<k; j++){
-                if(nums[i+j] <0){
+            for(int j = 0; j < k; j++){
+                if(nums[i+j] < 0){
                     System.out.print(nums[i+j] + " ");
                     flag = true;
                     break;

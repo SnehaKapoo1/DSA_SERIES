@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Print tree in a spiral form">
+    <list default="true" id="2ec2ddb9-d5e1-46ad-a9c6-e60608981858" name="Changes" comment="Iterator of java">
+      <change afterPath="$PROJECT_DIR$/src/recursion/backtracking/maze/CountPaths_FPP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/algorithms/slidingwindow/fixed/Question2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/algorithms/slidingwindow/fixed/Question2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/slidingwindow/fixed/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/slidingwindow/fixed/Question2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +75,13 @@
       <recent name="polymorphism.compileTime.overloading" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorClass">
-    <configuration name="ConstructBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.ConstructBinaryTree" />
+  <component name="RunManager" selected="Application.Counting_Paths">
+    <configuration name="CountPaths_FPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.backtracking.maze.CountPaths_FPP" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="recursion.backtracking.maze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.Implementation" />
+    <configuration name="Counting_Paths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.backtracking.maze.Counting_Paths" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="recursion.backtracking.maze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.IteratorClass" />
+    <configuration name="NToOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.SimpleRecur.NToOne" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.*" />
+          <option name="PATTERN" value="recursion.SimpleRecur.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Optimize_Better" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="striver_sheet.array1.setmatrixzero.Optimize_Better" />
+    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.slidingwindow.fixed.Question1" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="striver_sheet.array1.setmatrixzero.*" />
+          <option name="PATTERN" value="algorithms.slidingwindow.fixed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SegregateEvenAndOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.linkedList.SegregateEvenAndOdd" />
+    <configuration name="Question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.slidingwindow.fixed.Question2" />
       <module name="Demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="questions.linkedList.*" />
+          <option name="PATTERN" value="algorithms.slidingwindow.fixed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IteratorClass" />
-        <item itemvalue="Application.Optimize_Better" />
-        <item itemvalue="Application.Implementation" />
-        <item itemvalue="Application.ConstructBinaryTree" />
-        <item itemvalue="Application.SegregateEvenAndOdd" />
+        <item itemvalue="Application.Counting_Paths" />
+        <item itemvalue="Application.CountPaths_FPP" />
+        <item itemvalue="Application.NToOne" />
+        <item itemvalue="Application.Question2" />
+        <item itemvalue="Application.Question1" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640351164383</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Insertion operation">
-      <created>1648109950852</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1648109950852</updated>
     </task>
     <task id="LOCAL-00081" summary="Middle node">
       <created>1648112231706</created>
@@ -500,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653819669556</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Iterator of java">
+      <created>1654232167523</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1654232167523</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pair swapping" />
     <MESSAGE value="K stack in an array" />
     <MESSAGE value="Get Minimum from stack" />
     <MESSAGE value="Palindrome" />
@@ -540,7 +542,8 @@
     <MESSAGE value="IterativePreorder Space optimized" />
     <MESSAGE value="Construct Binary Tree from preorder and inorder." />
     <MESSAGE value="Print tree in a spiral form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print tree in a spiral form" />
+    <MESSAGE value="Iterator of java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator of java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
